@@ -1,4 +1,4 @@
-baseurl = "https://pss-be4book.netlify.app/"
+baseurl = "https://bee-book.netlify.app/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

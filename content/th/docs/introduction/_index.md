@@ -8,35 +8,36 @@ draft: false
 images: []
 menu:
   docs:
-    parent: ""
+    parent: "introduction"
     identifier: "introduction-2ac2e141c94a4ed38e0b48493b3bf085"
 weight: 100
-toc: true
+toc: false
 ---
 
-#### หนังสือสำหรับวิชา พื้นฐานวิศวกรรมไฟฟ้า
-- [บทที่ ๑ ปริมาณไฟฟ้า]({{<relref "chapter1">}})
-- [บทที่ ๒ กฏพื้นฐานไฟฟ้า]({{<relref "chapter2">}})
-- [บททดสอบ]({{<relref "quiz">}})
-
-{{< note >}}
-This is a note admonition using the default `title`.
-{{< /note >}}
-
-{{< vimeo 146022717 >}}
-
-{{< vimeo id="146022717" class="my-vimeo-wrapper-class" title="My vimeo video" >}}
 
 <style>
-ul {
+.circles{
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-li {
+.nobullet {
     height: 30px;
     line-height: 30px;
     padding-left: 100px;
     text-align: left;
 }
 </style>
+
+
+#### หนังสือสำหรับวิชา พื้นฐานวิศวกรรมไฟฟ้า
+
+<ul class="circles">
+<li class="nobullet"><a href="/docs/chapter1/">บทที่ ๑ ปริมาณไฟฟ้า</a></li>
+<li class="nobullet"><a href="/docs/chapter2/">บทที่ ๒ กฏพื้นฐานไฟฟ้า</a></li>
+<li class="nobullet"><a href="/docs/quiz/">บททดสอบ</a></li>
+</ul>
+
+{{< note >}}
+This is a note admonition using the default `title`.
+{{< /note >}}

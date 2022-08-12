@@ -17,3 +17,6 @@ If you want to know about the extended Markdown syntax of **LoveIt** theme, plea
 {{< youtube id="w7Ft2ymGmfc" title="A New Hugo Site in Under Two Minutes" >}}
 
 {{<vimeo 146022717 >}}
+
+{{< vimeo id="146022717" class="my-vimeo-wrapper-class" title="My vimeo video" >}}
+
