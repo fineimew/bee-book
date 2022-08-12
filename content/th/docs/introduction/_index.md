@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "สารบัญ"
 description: ""
 lead: ""
 date: 2022-08-04T14:11:21+07:00
@@ -30,7 +30,8 @@ toc: false
 </style>
 
 
-#### หนังสือสำหรับวิชา พื้นฐานวิศวกรรมไฟฟ้า
+#### หนังสือสำหรับวิชา 
+#### วิศวกรรมไฟฟ้าพื้นฐาน
 
 <ul class="circles">
 <li class="nobullet"><a href="/docs/chapter1/">บทที่ ๑ ปริมาณไฟฟ้า</a></li>
