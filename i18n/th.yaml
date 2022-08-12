@@ -1,0 +1,17 @@
+- id: get-started
+  translation: "เริ่มต้น"
+
+- id: on-this-page
+  translation: "ในหน้านี้"
+
+- id: search-text
+  translation: "ค้นเอกสาร..."
+
+- id: 404-title
+  translation: "หาไม่พบ :("
+
+- id: 404-text
+  translation: "หน้าที่ต้องการหา ไม่มี หรือ ถูกย้ายไปที่อื่น"
+
+- id: browse
+  translation: "ดูเนื้อหา"
