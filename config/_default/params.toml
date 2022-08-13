@@ -26,7 +26,7 @@ schemaName = "Doks"
 schemaAuthor = "Henk Verlinde"
 schemaAuthorTwitter = "https://twitter.com/henkverlinde"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/fineimew/be4book"
+schemaAuthorGitHub = "https://github.com/fineimew/bee-book"
 schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
@@ -36,7 +36,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/getdoks"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/fineimew/be4book"
+schemaGitHub = "https://github.com/fineimew/bee-book"
 schemaSection = "blog"
 
 ## Sitelinks Search Box

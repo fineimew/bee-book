@@ -16,7 +16,7 @@ toc: false
 
 
 <style>
-.circles{
+.nb{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -33,9 +33,10 @@ toc: false
 #### หนังสือสำหรับวิชา 
 #### วิศวกรรมไฟฟ้าพื้นฐาน
 
-<ul class="circles">
+<ul class="nb">
 <li class="nobullet"><a href="/docs/chapter1/">บทที่ ๑ ปริมาณไฟฟ้า</a></li>
 <li class="nobullet"><a href="/docs/chapter2/">บทที่ ๒ กฏพื้นฐานไฟฟ้า</a></li>
+<li class="nobullet"><a href="/docs/chapter3/">บทที่ ๓ การวิเคราะห์วงจรโดยใช้โหนด</a></li>
 <li class="nobullet"><a href="/docs/quiz/">บททดสอบ</a></li>
 </ul>
 

@@ -132,7 +132,7 @@ pre {
 
 .btn-toggle {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   padding: 0.25rem 0.5rem 0.25rem 0;
   font-weight: $headings-font-weight;
   font-size: $font-size-base;
