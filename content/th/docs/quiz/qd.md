@@ -47,6 +47,7 @@ class Dog(Animal):
 - [ ] `self.sound = "meow"`
 - [x] wuff
 
+
 # Put the [days](https://en.wikipedia.org/wiki/Day) in order!
 
 > Monday is the *first* day of the week.

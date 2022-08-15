@@ -1,28 +1,25 @@
 ---
-title: "Chapter1"
+title: "Quiz"
 description: ""
-date: 2022-08-14T18:11:20+07:00
-lastmod: 2022-08-14T18:11:20+07:00
-draft: true
+date: 2022-08-15T09:05:09+07:00
+lastmod: 2022-08-15T09:05:09+07:00
+draft: false
 images: []
 ---
 
----
-title: "Quiz"
-description: ""
-lead: ""
-date: 2022-08-06T17:24:14+07:00
-lastmod: 2022-08-06T17:24:14+07:00
-draft: false
-images: []
-menu:
-  docs:
-    parent: "quiz"
-    identifier: "quiz-93042de890e6da704da4aabc688c580f"
-weight: 999
-page: true
-toc: true
----
+<style>
+  p.b {
+  text-align: left;
+}
+</style>
+
+{{< admonition >}}
+<p class="b">แบบทดสอบ สำหรับวิชา วิศวกรรมไฟฟ้าพื้นฐาน</p>
+
+**เนื้อหาในบทนี้**
+
+{{< /admonition >}}
+
 # Hugo Quiz
 
 A hugo shortcode for writing quizzes with a markdown-like syntax: https://github.com/bonartm/hugo-quiz.

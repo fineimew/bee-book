@@ -59,7 +59,7 @@
   name = "แบบฝึกหัด"
   weight = 40
   identifier = "exercise"
-  url = "/docs/prologue/quick-start/"
+  url = "/quiz/"
   
 # [[footer]]
 #   name = "Privacy"
