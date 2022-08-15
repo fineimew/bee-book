@@ -24,7 +24,7 @@ toc: false
 .nobullet {
     height: 30px;
     line-height: 30px;
-    padding-left: 100px;
+    padding-left: 10px;
     text-align: left;
 }
 </style>
