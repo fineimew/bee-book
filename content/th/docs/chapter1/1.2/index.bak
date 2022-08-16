@@ -88,14 +88,13 @@ DC current  |  AC current
 คำตอบ 
 <div class="scroll">
 
-
 $$
-\begin{array}{rclcl}
-\text{จำนวนประจุของอิเลคตรอน} \;400\;\text{ตัว} &=& 400\times - 1.602 \times 10^{-19} \\
-       &=& -6.408 \times 10^{-17} \\
-      &=& -64.08\times 10^{-18} \\
-      Q_{400} &=& -64.08\;aC \;\text{(atto coulomb)}
-    \end{array}
+\\begin{array}{rclcl}
+\\text{จำนวนประจุของอิเลคตรอน} \\;400\\;\\text{ตัว} &=& 400\times - 1.602 \times 10^{-19} \\\\
+       &=& -6.408 \times 10^{-17} \\\\
+      &=& -64.08\times 10^{-18} \\\\
+      Q_{400} &=& -64.08\\;aC \\;\text{(atto coulomb)}
+    \\end{array}
 $$
 
 </div>
