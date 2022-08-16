@@ -108,11 +108,21 @@ $$
 
   
 ตัวอย่าง 1.2 กำหนดให้ $  q=\sin 4\pi t \\;mC\\;จงหากระแสที่ \\; t = 0.5  \\;s$
+
+คำตอบ
 $$
 \\begin{array}{rclcl}
-\\text{จำนวนประจุของอิเลคตรอน} \\;400\\;\\text{ตัว} &=& 400\times - 1.602 \times 10^{-19} \\\\
-       &=& -6.408 \times 10^{-17} \\\\
-      &=& -64.08\times 10^{-18} \\\\
-      Q_{400} &=& -64.08\\;aC \\;\text{(atto coulomb)}
+i(t) &=& \\dfrac{\\mathrm{d} q}{\\mathrm{d} t}=\\dfrac{\\mathrm{d} }{\\mathrm{d} t}(\\sin 4\\pi t)=4\\pi\\cos 4\\pi t\\\\
+       i(t=0.5s)&=& 4\\pi(\\cos 4\\pi (0.5))=4\\pi(\\cos 2\\pi) =12.57\\;mA
+    \\end{array}
+$$
+
+ตัวอย่าง 1.3 จงหาจำนวนประจุ ระหว่าง $t = 1\\;s$ และ $t= 2\\;s$ ถ้ากระแสคือ $i=3t^{2}-t \\;\\text{A}$ 
+
+คำตอบ
+$$
+\\begin{array}{rclcl}
+Q &=& \\mathop{\\int_{t=1}^{t=2}}i \\;dt=\\mathop{\\int_{1}^{2}}(3t^{2}-t)\\;dt\\\\
+       &=& \\left ( t^{3}-\\frac{t^{2}}{2} \\right )\\bigg\\rvert_{1}^{2} =(8-2)-\\left(1-\\dfrac{1}{2}\\right)=5.5\\;\\text{C}
     \\end{array}
 $$
