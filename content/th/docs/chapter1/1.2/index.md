@@ -89,12 +89,12 @@ DC current  |  AC current
 <div class="scroll">
 
 \\[
-\\begin{array}{rclcl}
-\\text{จำนวนประจุของอิเลคตรอน} \\;400\\;\\text{ตัว} &=& 400\times - 1.602 \times 10^{-19} \\\\
-       &=& -6.408 \times 10^{-17} \\\\
-      &=& -64.08\times 10^{-18} \\\\
-      Q_{400} &=& -64.08\\;aC \\;\text{(atto coulomb)}
-    \\end{array}
+\\begin{align*}
+\\text{จำนวนประจุของอิเลคตรอน} \\;400\\;\\text{ตัว} &= 400\times - 1.602 \times 10^{-19} \\\\
+       &= -6.408 \times 10^{-17} \\\\
+      &= -64.08\times 10^{-18} \\\\
+      Q_{400} &= -64.08\\;aC \\;\text{(atto coulomb)}
+    \\end{align*}
 \\]
 
 </div>
@@ -124,4 +124,27 @@ $$
 Q &=& \\mathop{\\int_{t=1}^{t=2}}i \\;dt=\\mathop{\\int_{1}^{2}}(3t^{2}-t)\\;dt\\\\
        &=& \\left ( t^{3}-\\frac{t^{2}}{2} \\right )\\bigg\\rvert_{1}^{2} =(8-2)-\\left(1-\\dfrac{1}{2}\\right)=5.5\\;\\text{C}
     \\end{array}
+$$
+
+
+$$
+\\begin{gather}
+        H(x)=\\log{\\left(\\sqrt{2} \\right)}h_1(x)+\\log{\\left(\\frac{\\sqrt{15}}{3} \\right)}h_2(x)+\\log{\\left(\\frac{\\sqrt{21}}{3} \\right)}h_3(x)
+        \\\\
+         \\displaystyle
+   h_1(x)=\\begin{cases}
+    1 \\ & \\mathrm{if} \\  x>=5.5 \\\\
+    -1 \\ &\\mathrm{if} \\  x<5.5
+    \\end{cases}
+    ,\\quad \\displaystyle
+   h_2(x)=\\begin{cases}
+    -1 \\ & \\mathrm{if} \\  x>=4.5 \\\\
+    1 \\ &\\mathrm{if} \\  x<4.5
+    \\end{cases}
+    ,\\quad \\displaystyle
+   h_3(x)=\\begin{cases}
+    1 \\ & \\mathrm{if} \\  x>=3.5 \\\\
+    -1 \\ &\\mathrm{if} \\  x<3.5
+    \\end{cases}
+\\end{gather}
 $$
