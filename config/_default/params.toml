@@ -101,6 +101,7 @@ lastMod = false
   breadCrumb = false
   highLight = true
   kaTex = false
+  mathjax = true
   multilingualMode = false
   docsVersioning = false
   fullWidth = false
