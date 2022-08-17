@@ -127,24 +127,3 @@ Q &= \\mathop{\\int_{t=1}^{t=2}}i \\;dt=\\mathop{\\int_{1}^{2}}(3t^{2}-t)\\;dt\\
 $$
 
 
-$$
-\\begin{gather}
-        H(x)=\\log{\\left(\\sqrt{2} \\right)}h_1(x)+\\log{\\left(\\frac{\\sqrt{15}}{3} \\right)}h_2(x)+\\log{\\left(\\frac{\\sqrt{21}}{3} \\right)}h_3(x)
-        \\\\
-         \\displaystyle
-   h_1(x)=\\begin{cases}
-    1 \\ & \\mathrm{if} \\  x>=5.5 \\\\
-    -1 \\ &\\mathrm{if} \\  x<5.5
-    \\end{cases}
-    ,\\quad \\displaystyle
-   h_2(x)=\\begin{cases}
-    -1 \\ & \\mathrm{if} \\  x>=4.5 \\\\
-    1 \\ &\\mathrm{if} \\  x<4.5
-    \\end{cases}
-    ,\\quad \\displaystyle
-   h_3(x)=\\begin{cases}
-    1 \\ & \\mathrm{if} \\  x>=3.5 \\\\
-    -1 \\ &\\mathrm{if} \\  x<3.5
-    \\end{cases}
-\\end{gather}
-$$
