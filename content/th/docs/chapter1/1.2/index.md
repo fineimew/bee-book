@@ -121,7 +121,7 @@ $$
 คำตอบ
 $$
 \\begin{align*}
-Q &=& \\mathop{\\int_{t=1}^{t=2}}i \\;dt=\\mathop{\\int_{1}^{2}}(3t^{2}-t)\\;dt\\\\
+Q &= \\mathop{\\int_{t=1}^{t=2}}i \\;dt=\\mathop{\\int_{1}^{2}}(3t^{2}-t)\\;dt\\\\
        &= \\left ( t^{3}-\\frac{t^{2}}{2} \\right )\\bigg\\rvert_{1}^{2} =(8-2)-\\left(1-\\dfrac{1}{2}\\right)=5.5\\;\\text{C}
     \\end{align*}
 $$
