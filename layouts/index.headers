@@ -2,7 +2,7 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
-  Content-Security-Policy: default-src *; frame-ancestors https://jamstackthemes.dev; manifest-src 'self' https://*.netlify.app; connect-src 'self' https://*.netlify.app; font-src 'self' https://*.netlify.app; img-src https: https://*.netlify.app data: https://i.giphy.com; script-src  https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js https://*.netlify.app https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js  https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML 'unsafe-inline'; style-src 'self' https://*.netlify.app 'unsafe-inline'
+  Content-Security-Policy: default-src *; frame-ancestors https://jamstackthemes.dev; manifest-src 'self' https://*.netlify.app; connect-src 'self' https://*.netlify.app; font-src 'self' https://*.netlify.app; img-src https: https://*.netlify.app data: https://i.giphy.com; script-src  https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js https://*.netlify.app https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js  https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML 'unsafe-inline'; style-src 'self' https://*.netlify.app 'unsafe-inline'
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin
   Feature-Policy: geolocation 'self'
