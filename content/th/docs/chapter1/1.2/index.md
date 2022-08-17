@@ -110,20 +110,20 @@ DC current  |  AC current
 
 คำตอบ
 $$
-\\begin{array}{rclcl}
-i(t) &=& \\dfrac{\\mathrm{d} q}{\\mathrm{d} t}=\\dfrac{\\mathrm{d} }{\\mathrm{d} t}(\\sin 4\\pi t)=4\\pi\\cos 4\\pi t\\\\
-       i(t=0.5s)&=& 4\\pi(\\cos 4\\pi (0.5))=4\\pi(\\cos 2\\pi) =12.57\\;mA
-    \\end{array}
+\\begin{align*}
+i(t) &= \\dfrac{\\mathrm{d} q}{\\mathrm{d} t}=\\dfrac{\\mathrm{d} }{\\mathrm{d} t}(\\sin 4\\pi t)=4\\pi\\cos 4\\pi t\\\\
+       i(t=0.5s)&= 4\\pi(\\cos 4\\pi (0.5))=4\\pi(\\cos 2\\pi) =12.57\\;mA
+    \\end{align*}
 $$
 
 ตัวอย่าง 1.3 จงหาจำนวนประจุ ระหว่าง $t = 1\\;s$ และ $t= 2\\;s$ ถ้ากระแสคือ $i=3t^{2}-t \\;\\text{A}$ 
 
 คำตอบ
 $$
-\\begin{array}{rclcl}
+\\begin{align*}
 Q &=& \\mathop{\\int_{t=1}^{t=2}}i \\;dt=\\mathop{\\int_{1}^{2}}(3t^{2}-t)\\;dt\\\\
-       &=& \\left ( t^{3}-\\frac{t^{2}}{2} \\right )\\bigg\\rvert_{1}^{2} =(8-2)-\\left(1-\\dfrac{1}{2}\\right)=5.5\\;\\text{C}
-    \\end{array}
+       &= \\left ( t^{3}-\\frac{t^{2}}{2} \\right )\\bigg\\rvert_{1}^{2} =(8-2)-\\left(1-\\dfrac{1}{2}\\right)=5.5\\;\\text{C}
+    \\end{align*}
 $$
 
 
