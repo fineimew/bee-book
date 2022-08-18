@@ -40,6 +40,3 @@ toc: false
 <li class="nobullet"><a href="/docs/quiz/">บททดสอบ</a></li>
 </ul>
 
-{{< note >}}
-This is a note admonition using the default `title`.
-{{< /note >}}
