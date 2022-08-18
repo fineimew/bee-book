@@ -36,7 +36,7 @@ $$
 
 <figure>
 <p align="center">
-  <img src="fig2.3.png" alt="fig 2.3" style="width:50%">
+  <img src="fig2.3.png" alt="fig 2.3" style="width:100%">
 </p>
   <figcaption style='text-align:center'>รูปที่ 2.3</figcaption>
 </figure>
@@ -55,7 +55,7 @@ $$
 
 <figure>
 <p align="center">
-  <img src="fig2.4.png" alt="fig 2.4" style="width:60%">
+  <img src="fig2.4.png" alt="fig 2.4" style="width:100%">
 </p>
   <figcaption style='text-align:center'>รูปที่ 2.4</figcaption>
 </figure>
