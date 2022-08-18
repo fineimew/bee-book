@@ -59,30 +59,45 @@ $$
 \\end{equation}
 $$
 
-## Go further
+ตัวอย่าง 1.4 จงหา $V_{ab}$ และ $V_{ba}$  โดยกำหนดให้ $V_a=9$ และ $V_b=3$
 
-Recipes, Reference Guides, Extensions, and Showcase.
 
-### Recipes
+คำตอบ
+<div class="scroll">
 
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
+$$
+\\begin{align*}
+V_{ab} &= V_a - V_b = 9 - 3=6\\;V\\\\
+       V_{ba}&= V_b - V_a = 3 - 9 = -6\\;V = -V_{ab}
+    \\end{align*}
+$$
 
-### Reference Guides
+</div>
 
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
+<img src="fig1.4.png" alt="fig 1.4" width="400" align="center"/>
 
-### Extensions
+ตัวอย่าง 1.5 
 
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/breadcrumb-navigation/)
+(a) จากรูป 1.5(a) จงหา $V_a$ ถ้า $V_b=4\\;V$
+<br>
+(b) จากรูป 1.5(b) จงหา $V_b$ ถ้า $V_a=-3\\;V$
 
-### Showcase
 
-See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/electric-blocks/)
+<img src="fig1.5.png" alt="fig 1.5" width="300" align="center"/>
 
-## Contributing
+คำตอบ
+<div class="scroll">
+(a)
+$$
+\begin{align*}
+V_{ab} = V_a - V_b \rightarrow V_a = V_{ab} + V_b = 9 + 4 = 13\\;V
+    \end{align*}
+$$
 
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
-
-## Help
-
-Get help on Doks. [Help →]({{< relref "how-to-update" >}})
+(b)
+$$
+\begin{align*}
+V_{ab} = V_a - V_b \rightarrow V_b = V_a - V_{ab} = -3 + -9 = -12\\;V
+    \end{align*}
+$$
+</div>

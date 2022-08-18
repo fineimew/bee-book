@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* Tags */
+@import "../css/learn/tags.css";
+@import "../css/learn/fontawesome-all.min.css";
+
+@font-face {
+  font-family: 'Novacento Sans Wide';
+  src: url("../fonts/Novecentosanswide-UltraLight-webfont.eot");
+  src: url("../fonts/Novecentosanswide-UltraLight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecentosanswide-UltraLight-webfont.woff2") format("woff2"), url("../fonts/Novecentosanswide-UltraLight-webfont.woff") format("woff"), url("../fonts/Novecentosanswide-UltraLight-webfont.ttf") format("truetype"), url("../fonts/Novecentosanswide-UltraLight-webfont.svg#novecento_sans_wideultralight") format("svg");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Work_Sans_300.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans_300.woff") format("woff"), url("../fonts/Work_Sans_300.woff2") format("woff2"), url("../fonts/Work_Sans_300.svg#WorkSans") format("svg"), url("../fonts/Work_Sans_300.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Work_Sans_500.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans_500.woff") format("woff"), url("../fonts/Work_Sans_500.woff2") format("woff2"), url("../fonts/Work_Sans_500.svg#WorkSans") format("svg"), url("../fonts/Work_Sans_500.ttf") format("truetype");
+}
+div.notices {
+  margin: 2rem 0;
+  position: relative;
+}
+div.notices p {
+  padding: 15px;
+  display: block;
+  font-size: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #666;
+}
+div.notices p:first-child:before {
+  position: absolute;
+  top: 2px;
+  color: #fff;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f06a";
+  left: 10px;
+}
+div.notices p:first-child:after {
+  position: absolute;
+  top: 2px;
+  color: #fff;
+  left: 2rem;
+}
+div.notices.info p {
+  border-top: 30px solid #F0B37E;
+  background: #FFF2DB;
+}
+div.notices.info p:first-child:after {
+  content: 'Info';
+}
+div.notices.warning p {
+  border-top: 30px solid rgba(217, 83, 79, 0.8);
+  background: #FAE2E2;
+}
+div.notices.warning p:first-child:after {
+  content: 'Warning';
+}
+div.notices.note p {
+  border-top: 30px solid #6AB0DE;
+  background: #E7F2FA;
+}
+div.notices.note p:first-child:after {
+  content: 'Note';
+}
+div.notices.tip p {
+  border-top: 30px solid rgba(92, 184, 92, 0.8);
+  background: #E6F9E6;
+}
+div.notices.tip p:first-child:after {
+  content: 'Tip';
+}
+
+div.notices.def p {
+  border-top: 30px solid rgba(173, 14, 247, 0.8);
+  background: #E6F9E6;
+}
+div.notices.def p:first-child:after {
+  content: 'นิยาม';
+}

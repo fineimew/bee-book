@@ -148,3 +148,23 @@ $$
     \\end{cases}
 \\end{gather}
 $$
+
+
+{{% notice note %}}
+The size of the logo will adapt automatically
+{{% /notice %}}
+
+<div class="notices note"><p>Automatically published and hosted thanks to <a href="https://www.netlify.com/" class="highlight">Netlify</a>. Read more about <a href="https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/" class="highlight">Automated HUGO deployments with Netlify</a></p>
+</div>
+
+{{% notice tip %}}Learn theme works with a _page tree structure_ to organize content : All contents are pages, which belong to other pages. [read more about this]
+{{% /notice %}}
+
+{{% notice def %}}Learn theme works with a _page tree structure_ to organize content : All contents are pages, which belong to other pages. [read more about this]
+{{% /notice %}}
+
+<div class="notices def"><p>Automatically published and hosted thanks to <a href="https://www.netlify.com/" class="highlight">Netlify</a>. Read more about <a href="https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/" class="highlight">Automated HUGO deployments with Netlify</a></p>
+</div>
+{{% definition def %}}Learn theme works with a _page tree structure_ to organize content : All contents are pages, which belong to other pages. [read more about this]
+{{% /definition %}}
+
