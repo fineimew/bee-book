@@ -86,3 +86,16 @@ div.notices.def p {
 div.notices.def p:first-child:after {
   content: 'นิยาม';
 }
+
+div.scroll {
+  display: block;
+  overflow-x: auto;
+  padding: 1.25rem 1.5rem;
+  background: $beige;
+  color: $body-color;
+}
+#demo-output {
+font-size: 18px;
+padding: 10px 0;
+overflow: auto;
+}

@@ -11,7 +11,44 @@
       skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
     }
   };
-
+  window.MathJax = {
+    tex: {
+      tags: 'ams',
+      packages: {'[+]': ['tagformat']},
+      tagSide: 'left',
+      macros: {
+        RR: '{\\bf R}',
+        bold: ['{\\bf #1}',1]
+      },
+      tagformat: {
+        tag: (n) => '[' + n + ']'
+      }
+    }
+  };
+/*
+window.MathJax = {
+  loader: {
+    load: ['[tex]/tagformat']
+  },
+  startup: {
+    pageReady: () => {
+      alert('Running MathJax');
+      return MathJax.startup.defaultPageReady();
+    }
+  },
+  tex: {
+    packages: {'[+]': ['tagformat']},
+    tagSide: 'left',
+    macros: {
+      RR: '{\\bf R}',
+      bold: ['{\\bf #1}',1]
+    },
+    tagformat: {
+       tag: (n) => '[' + n + ']'
+    }
+  }
+};
+*/
   window.addEventListener('load', (event) => {
       document.querySelectorAll("mjx-container").forEach(function(x){
         x.parentElement.classList += 'has-jax'})
