@@ -33,7 +33,7 @@ $$
 
 <figure>
 <p align="center">
-  <img src="fig3.16.png" alt="fig 3.16" style="width:60%">
+  <img src="fig3.16.png" alt="fig 3.16" style="width:100%">
 </p>
   <figcaption style='text-align:center'>รูปที่ 3.16 
 </figcaption>
@@ -70,7 +70,7 @@ $$
 
 <figure>
 <p align="center">
-  <img src="fig3.17.png" alt="fig 3.17" style="width:60%">
+  <img src="fig3.17.png" alt="fig 3.17" style="width:50%">
 </p>
   <figcaption style='text-align:center'>รูปที่ 3.17 วงจรสำหรับตัวอย่าง 3.7
 </figcaption>
