@@ -18,7 +18,7 @@ toc: true
       display: block;
       overflow-x: auto;
       padding: 1.25rem 1.5rem;
-      background: $beige;
+      /*background: $beige;*/
       color: $body-color;
   }
   #demo-output {
