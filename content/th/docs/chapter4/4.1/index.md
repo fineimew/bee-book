@@ -62,7 +62,7 @@ $$
 
 <figure>
 <p align="center">
-  <img src="fig4.1.png" alt="fig 4.1" style="width:50%">
+  <img src="fig4.1.png" alt="fig 4.1" style="width:100%">
 </p>
   <figcaption style='text-align:center'>รูปที่ 4.1 วงจรสำหรับตัวอย่าง 4.1
 </figcaption>
