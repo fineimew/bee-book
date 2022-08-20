@@ -67,7 +67,30 @@ $$
 <p align="center">
   <img src="fig4.10.png" alt="fig 4.10" style="width:100%">
 </p>
-  <figcaption style='text-align:center'>รูปที่ 4.10 
-</figcaption>
+  <figcaption style='text-align:center'>รูปที่ 4.10 </figcaption>
 </figure>
+
+
+<figure>
+<p align="center">
+  <img src="fig4.11.png" alt="fig 4.11" style="width:100%">
+</p>
+  <figcaption style='text-align:center'>รูปที่ 4.11 </figcaption>
+</figure>
+
+ในรูปที่ 4.11(a) แหล่งจ่ายกระแสสองตัวรวมกันได้เนื่องจากไม่มีอุปกรณ์ไฟฟ้าตัวอื่นมาคั่น กลาง
+
+{{% notice warning %}}
+แหล่งจ่ายกระแสรวมกันไม่ได้ถ้ามีอุปกรณ์ไฟฟ้าตัวอื่นต่อคั่นอยู่ระหว่างแหล่งจ่ายกระแส
+{{% /notice %}}
+
+จากรูปที่ 4.11(b) ใช้กฏแบ่งกระแส
+$$
+    \begin{align*}
+                i&=\left(\frac{2}{2+8}\right)2=0.4\mathrm{A}\nonumber\\\\
+                v_o&=8i=8(0.4)=3.2\mathrm{V}\notag\\\\ \text{หรือ}\qquad \qquad  \nonumber \\\\ 
+                v_o&=(8 || 2)(2\mathrm{A})=\frac{8\times2}{10}(2)=3.2\mathrm{V}\nonumber
+    \end{align*}
+$$
+
 
