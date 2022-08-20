@@ -4,11 +4,11 @@
   identifier = "ch1"
   url = "/chapter1/"
 
-[[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
+#[[docs]]
+#  name = "Help"
+#  weight = 600
+#  identifier = "help"
+#  url = "/docs/help/"
 
 # [[docs]]
 #   name = "Lorem"
