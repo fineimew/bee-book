@@ -1,7 +1,7 @@
 ---
-title: "5.1 สัญญาณฟังก์ชันตระกูลซายน์"
+title: "5.3 ความสัมพันธ์เฟสเซอร์ของอุปกรณ์ไฟฟ้า"
 description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+lead: ""
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -9,6 +9,6 @@ images: []
 menu:
   docs:
     parent: "chapter5"
-weight: 510
+weight: 530
 toc: true
 ---
