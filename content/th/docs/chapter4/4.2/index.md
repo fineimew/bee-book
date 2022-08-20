@@ -148,12 +148,18 @@ $$
   <figcaption style='text-align:center'>รูปที่ 4.7 พิจารณาเฉพาะแหล่งจ่ายกระแส $3\mathrm{A}$</figcaption>
 </figure>
 
-หากระแส $i_3$ ด้วยการแบ่งกระแส
+หากระแส $i_b$ ด้วยการแบ่งกระแส จาก แหล่งจ่ายกระแส $3\;\mathrm{A}$
 $$
-  \begin{align}
+  \begin{align*}
       i_b&=\left(\frac{8}{8+4+12/7}\right)3\nonumber\\\\
       i_b&=\left(\frac{56}{84+12}\right)3\nonumber\\\\
       i_b&=\left(\frac{56}{96}\right)3=\frac{7}{4}\nonumber\\\\
+  \end{align*}
+$$
+
+หากระแส $i_3$ ด้วยการแบ่งกระแส จาก $i_b$
+$$
+  \begin{align}
       i_3&=\left(\frac{4}{4+3}\right)i_b=\left(\frac{4}{4+3}\right)\frac{7}{4}=1\mathrm{A} \tag{4.9}
   \end{align}
 $$
