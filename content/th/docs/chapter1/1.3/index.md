@@ -24,7 +24,7 @@ $$
 $w$ เป็นพลังงาน หน่วย จูล ($J$) $q$ คือประจุ หน่วย คูลอมบ์ (C)  
 {{</admonition>}}
 
-## เครื่องหมายแรงดัน
+## **เครื่องหมายแรงดัน**
 
 การกำหนดเครื่องหมายแรงดันมีผลต่อทิศการไหลของกระแส โดยที่กระแสไหลจากแรงดันศักย์สูง (แรงดันมีเครื่องหมายบวก) ไปแรงดันศักย์ต่ำ (แรงดันมีเครื่องหมายลบ) เสมอ
 
@@ -58,7 +58,8 @@ $$
 \\end{equation} \tag{1.6}
 $$
 
-ตัวอย่าง 1.4 จงหา $V_{ab}$ และ $V_{ba}$  โดยกำหนดให้ $V_a=9$ และ $V_b=3$
+{{<admonition abstract "ตัวอย่าง 1.4" false>}}
+จงหา $V_{ab}$ และ $V_{ba}$  โดยกำหนดให้ $V_a=9$ และ $V_b=3$
 
 
 คำตอบ
@@ -75,9 +76,9 @@ $$
 <p align="center">
 <img src="fig1.4.png" alt="fig 1.4" width="400" align="center"/>
 </p>
+{{</admonition>}}
 
-ตัวอย่าง 1.5 
-
+{{<admonition abstract "ตัวอย่าง 1.5" false>}}
 (a) จากรูป 1.5(a) จงหา $V_a$ ถ้า $V_b=4\\;V$
 <br>
 (b) จากรูป 1.5(b) จงหา $V_b$ ถ้า $V_a=-3\\;V$
@@ -87,17 +88,20 @@ $$
 </p>
 คำตอบ
 <div class="scroll">
-(a)
+&emsp;&emsp;&emsp;(a)
 $$
 \begin{align*}
 V_{ab} = V_a - V_b \rightarrow V_a = V_{ab} + V_b = 9 + 4 = 13\;V
     \end{align*}
 $$
 
-(b)
+&emsp;&emsp;&emsp;(b)
 $$
 \begin{align*}
 V_{ab} = V_a - V_b \rightarrow V_b = V_a - V_{ab} = -3 + -9 = -12\\;V
     \end{align*}
 $$
 </div>
+{{</admonition>}}
+
+
