@@ -26,6 +26,7 @@ toc: false
     line-height: 30px;
     padding-left: 10px;
     text-align: left;
+    overflow: initial;
 }
 </style>
 
