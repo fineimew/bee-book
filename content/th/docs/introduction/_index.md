@@ -41,5 +41,6 @@ toc: false
 <li class="nobullet"><a href="/docs/chapter4/">บทที่ ๔ ทฤษฏีวงจรไฟฟ้า</a></li>
 <li class="nobullet"><a href="/docs/chapter5/">บทที่ ๕ เฟสเซอร์</a></li>
 <li class="nobullet"><a href="/docs/chapter6/">บทที่ ๖ การวิเคราะห์วงจรกระแสสลับ</a></li>
+<li class="nobullet"><a href="/docs/chapter7/">บทที่ ๗ การวิเคราะห์กำลังวงจรสลับ</a></li>
 </ul>
 
