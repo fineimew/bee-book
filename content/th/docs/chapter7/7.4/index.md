@@ -13,7 +13,7 @@ weight: 740
 toc: true
 ---
 
-{{<admonition info "นิยาม 7.4 ค่าแอฟแฟคทีฟ" false>}}
+{{<admonition info "นิยาม 7.4 กำลังปรากฏ" false>}}
 กำลังปรากฏ (apparent power) S คือผลคูณของแรงดัน rms กับกระแส rms
 \begin{align}
     S=V_\text{rms}I_\text{rms} \tag{7.43}
