@@ -29,14 +29,14 @@ toc: true
 
 จากความสัมพันธ์
 \begin{align*}
-    V_{line}=\sqrt{3}V_{phase}\\\\
-    \angle{V_{line}}=\angle{V_{phase}+30^{\circ}}
+    V_{line}&=\sqrt{3}V_{phase}\\\\
+    \angle{V_{line}}&=\angle{V_{phase}+30^{\circ}}
 \end{align*}
 แรงดันไลน์คือ
 \begin{align}
-       \mathbf{V}\_{ab}&=\sqrt{3}\mathbf{V}_p\angle{30^{\circ}}=\mathbf{V}\_{AB}\notag\\\\
-       \mathbf{V}\_{bc}&=\sqrt{3}\mathbf{V}_p\angle{-90^{\circ}}=\mathbf{V}\_{BC}\tag{8.22}\\\\
-       \mathbf{V}\_{ca}&=\sqrt{3}\mathbf{V}_p\angle{-150^{\circ}}=\mathbf{V}\_{CA}\notag
+       \mathbf{V}\_{ab}&=\sqrt{3}\mathbf{V}_p\angle{30^{\circ}}&=\mathbf{V}\_{AB}\notag\\\\
+       \mathbf{V}\_{bc}&=\sqrt{3}\mathbf{V}_p\angle{-90^{\circ}}&=\mathbf{V}\_{BC}\tag{8.22}\\\\
+       \mathbf{V}\_{ca}&=\sqrt{3}\mathbf{V}_p\angle{-150^{\circ}}&=\mathbf{V}\_{CA}\notag
 \end{align}
 ซึ่งแสดงให้เห็นว่าแรงดันไลน์เท่ากับแรงดันที่ตกคร่อมอิมพีแดนซ์โหลด (ตัวอักษรห้อยตัวเล็กหมายถึงฝั่งแหล่งจ่าย และตัวอักษรห้อยตัวใหญ่หมายถึงฝั่งโหลด) 
 
@@ -60,7 +60,7 @@ toc: true
 
 กระแสไลน์หาจากกระแสเฟสโดยใช้กฏ KCL ที่โหนด A,B, และ C
 \begin{align}
-    \mathbf{I}_a=\mathbf{I}\_{AB}-\mathbf{I}\_{CA},\quad \mathbf{I}_b=\mathbf{I}\_{BC}-\mathbf{I}\_{AB},\quad \mathbf{I}_c=\mathbf{I}\_{CA}-\mathbf{I}\_{BC} \tag{8.25}
+    \mathbf{I}_a&=\mathbf{I}\_{AB}-\mathbf{I}\_{CA}\notag\\\\ \mathbf{I}_b&=\mathbf{I}\_{BC}-\mathbf{I}\_{AB}\tag{8.25}\\\\\ \mathbf{I}_c&=\mathbf{I}\_{CA}-\mathbf{I}\_{BC} \notag
 \end{align}
 เนื่องจาก $\mathbf{I}\_{CA}=\mathbf{I}\_{AB}\angle{-240^{\circ}}$
 \begin{align}
@@ -123,15 +123,15 @@ toc: true
 \end{align*}
 กระแสเฟสคือ
 \begin{align*}
-    \mathbf{I}\_\{AB}=\dfrac{\mathbf{V}\_\{AB}}{\mathbf{Z}\_\{\Delta}}=\dfrac{173.2\angle{40^{\circ}}}{8.9444\angle{26.57^{\circ}}}=19.36\angle{13.43^{\circ}}\\;\mathrm{A}\\\\
-    \mathbf{I}\_\{BC}=\mathbf{I}\_\{AB}\angle{-120^{\circ}}=19.36\angle{-106.57^{\circ}}\\;\mathrm{A}\\\\
-    \mathbf{I}\_\{CA}=\mathbf{I}\_\{AB}\angle{+120^{\circ}}=19.36\angle{133.43^{\circ}}\\;\mathrm{A}
+    \mathbf{I}\_\{AB}&=\dfrac{\mathbf{V}\_\{AB}}{\mathbf{Z}\_\{\Delta}}=\dfrac{173.2\angle{40^{\circ}}}{8.9444\angle{26.57^{\circ}}}=19.36\angle{13.43^{\circ}}\\;\mathrm{A}\\\\
+    \mathbf{I}\_\{BC}&=\mathbf{I}\_\{AB}\angle{-120^{\circ}}=19.36\angle{-106.57^{\circ}}\\;\mathrm{A}\\\\
+    \mathbf{I}\_\{CA}&=\mathbf{I}\_\{AB}\angle{+120^{\circ}}=19.36\angle{133.43^{\circ}}\\;\mathrm{A}
 \end{align*}
 กระแสไลน์คือ
 \begin{align*}
-    \mathbf{I}\_\{a}=\mathbf{I}_\{AB}\sqrt{3}\angle{-30^{\circ}}=\sqrt{3}(19.36)\angle{13.43^{\circ}-30^{\circ}}=33.53\angle{-16.57^{\circ}}\\;\mathrm{A}\\\\
-    \mathbf{I}\_\{b}=\mathbf{I}\_\{a}\angle{-120^{\circ}}=33.53\angle{-136.57^{\circ}}\\;\mathrm{A}\\\\
-    \mathbf{I}\_\{c}=\mathbf{I}\_\{a}\angle{+120^{\circ}}=33.53\angle{103.43^{\circ}}\\;\mathrm{A}
+    \mathbf{I}\_\{a}&=\mathbf{I}_\{AB}\sqrt{3}\angle{-30^{\circ}}=\sqrt{3}(19.36)\angle{13.43^{\circ}-30^{\circ}}=33.53\angle{-16.57^{\circ}}\\;\mathrm{A}\\\\
+    \mathbf{I}\_\{b}&=\mathbf{I}\_\{a}\angle{-120^{\circ}}=33.53\angle{-136.57^{\circ}}\\;\mathrm{A}\\\\
+    \mathbf{I}\_\{c}&=\mathbf{I}\_\{a}\angle{+120^{\circ}}=33.53\angle{103.43^{\circ}}\\;\mathrm{A}
 \end{align*}
 
 วิธีที่ 2 ใช้การวิเคราะห์หนึ่งเฟส
