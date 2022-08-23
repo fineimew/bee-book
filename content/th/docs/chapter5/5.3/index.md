@@ -129,7 +129,7 @@ toc: true
 สำหรับตัวเหนี่ยวนำ $\mathbf{V}=j\omega L\mathbf{I}$ โดยที่ $\omega = 60  \;\mathrm{rad/s}$ และ $ \mathbf{V}=12\angle{45^{\circ}}\mathrm{V}$
 ดังนั้น
 \begin{equation*}
-    \mathbf{I}=\dfrac{\mathbf{V}}{j\omega L}=\dfrac{\mathbf{V}}{j60\times 0.1}=\dfrac{12\angle{45^{\circ}}}{ุุ6\angle{90^{\circ}}}=2\angle{45^{\circ}}\mathrm{A}
+    \mathbf{I}=\dfrac{\mathbf{V}}{j\omega L}=\dfrac{\mathbf{V}}{j60\times 0.1}=\dfrac{12\angle{45^{\circ}}}{6\angle{90^{\circ}}}=2\angle{45^{\circ}}\mathrm{A}
 \end{equation*}
 เปลี่ยนให้อยู่ในรูปของเวลา
 \begin{equation*}
