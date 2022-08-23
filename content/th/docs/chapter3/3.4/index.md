@@ -66,7 +66,9 @@ $$
 3. supermesh ต้องการทั้ง KVL และ KCL ในการแก้สมการ
 {{< /admonition >}}
 
-ตัวอย่าง 3.7 จงหากระแสแมช $i_1, i_2, i_3$
+## ตัวอย่าง 3.7 
+{{<admonition abstract "ตัวอย่าง 3.7" false>}}
+จงหากระแสแมช $i_1, i_2, i_3$
 
 <figure>
 <p align="center">
@@ -113,3 +115,4 @@ $$
   <figcaption style='text-align:center'>รูปที่ 3.18 
 </figcaption>
 </figure>
+{{</admonition>}}

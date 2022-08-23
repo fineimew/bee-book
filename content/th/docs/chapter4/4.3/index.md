@@ -21,7 +21,7 @@ toc: true
   
 ## หลักการแปลงแหล่งจ่าย
 
-{{< admonition warning>}}
+{{< admonition warning >}}
 การแปลงแหล่งจ่ายคือการแทนแหล่งจ่ายแรงดัน $v_s$ ที่ต่ออนุกรมกับตัวต้านทาน $R$ ให้เป็นแหล่งจ่ายกระแส $i_s$ ที่ต่อขนานกับตัวต้านทาน $R$
 {{< /admonition >}}
 
@@ -36,9 +36,9 @@ toc: true
 
 โดยที่ $v_s$ และ $i_s$ มีความสัมพันธ์ตามกฏของโอห์มดังนี้
 $$
-\begin{equation}
+\begin{equation*}
     v_s=i_sR \quad \text{หรือ} \quad i_s=\dfrac{v_s}{R}
-\end{equation}
+\end{equation*}
 $$
 
 ## ข้อระวังเมื่อทำการแปลงแหล่งจ่าย

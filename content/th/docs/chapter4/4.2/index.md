@@ -130,10 +130,10 @@ $$
 
 ใช้กฏแบ่งแรงดัน
 $$
-      \begin{align}
+      \begin{align*}
           v_1&=\left(\frac{12/7}{12+12/7}\right)24\nonumber\\\\
           v_1&=\left(\frac{12}{96}\right)24=3\mathrm{V}\nonumber
-      \end{align}
+      \end{align*}
 $$
 จากกฏของโอห์ม
 $$

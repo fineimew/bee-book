@@ -88,7 +88,9 @@ $$
 \end{equation}
 $$
 
-ตัวอย่าง 2.7 จงแปลงโครงข่าย $\Delta$ เป็นโครงข่าย Y
+## ตัวอย่าง 2.7 
+{{<admonition abstract "ตัวอย่าง 2.7" false>}}
+จงแปลงโครงข่าย $\Delta$ เป็นโครงข่าย Y
 
 <figure>
 <p align="center">
@@ -107,3 +109,4 @@ $$
     R_3&=\dfrac{R_aR_b}{R_a+R_b+R_c}=\dfrac{15\times10}{50}=3\Omega
 \end{align*}
 $$
+{{</admonition >}}

@@ -13,9 +13,7 @@ weight: 220
 toc: true
 ---
 
-{{< admonition >}}
-นิยาม 2.2
-
+{{< admonition info "นิยาม 2.2 Branch Node Loop" false>}}
 Branch คืออุปกรณ์ไฟฟ้า เช่นตัวต้านทาน แหล่งจ่ายแรงดัน  
 
 Node คือจุดเชื่อมต่อของอุปกรณ์ไฟฟ้า  
@@ -32,7 +30,9 @@ $$
 \end{equation} 
 $$
 
-ตัวอย่าง 2.2 จงหาจำนวน branch  node  loop
+## ตัวอย่าง 2.2 
+{{<admonition abstract "ตัวอย่าง 2.2" false>}}
+จงหาจำนวน branch  node  loop
 
 <figure>
 <p align="center">
@@ -60,6 +60,7 @@ $$
   <figcaption style='text-align:center'>รูปที่ 2.4</figcaption>
 </figure>
 
+{{</admonition>}}
 
 ### ลูปอิสระ
 ในตัวอย่าง 2.2 จำนวนลูปที่คำนวณได้เท่ากับ 3 ซึ่งทั้งสามลูปเป็นอิสระ หมายความว่า สมการ KVL ที่ได้จากแต่ละลูปไม่สามารถหาได้จากสมการของลูปอื่น
