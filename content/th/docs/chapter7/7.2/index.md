@@ -113,7 +113,6 @@ $$
 \begin{align}
     P_{max}=\dfrac{|\mathbf{V}\_\mathrm{Th}|^2}{8R\_\text{Th}}=\dfrac{(7.454)^2}{8(2.933)}=2.368\\;\mathrm{W} \tag{7.27}
 \end{align}
-{{</admonition>}}
 
 <figure>
 <p align="center">
@@ -121,6 +120,8 @@ $$
 </p>
   <figcaption style='text-align:center'>รูปที่ 7.5</figcaption>
 </figure>
+
+{{</admonition>}}
 
 {{<admonition abstract "ตัวอย่าง 7.6" false>}}
 จงหาค่า $R_L$ ที่ทำให้เกิดการถ่ายกำลังสูงสุด และหาค่ากำลังสูงสุด

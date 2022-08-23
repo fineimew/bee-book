@@ -26,7 +26,7 @@ toc: true
 
 วงจรซ้ายมือของขั้ว $a-b$ ในรูปที่ 4.12(b) คือวงจรเทเวนิน
 
-{{< admonition >}}
+{{< admonition info "นิยาม 4.2 ทฤษฏีเทเวนิน" false>}}
 นิยาม 4.2
 ทฤษฏีเทเวนินกล่าวว่า วงจรเชิงเส้นสองขั้วใดๆ สามารถถูกแทนได้ด้วยวงจรสมมูลที่มีแหล่งจ่ายแรงดัน $V_\text{Th}$ ต่ออนุกรมกับตัวต้านทาน $R_\text{Th}$ โดยที่ $V_\text{Th}$ เป็นแรงดันเปิดวงจรที่ขั้ว $a-b$ และ $R_\text{Th}$ เป็นตัวต้านทานสมมูลที่ขั้ว $a-b$ เมื่อแหล่งจ่ายอิสระทุกตัวถูกกำจัด
 {{< /admonition >}}
@@ -58,7 +58,9 @@ $$
 \end{equation}
 $$
 
-ตัวอย่าง 4.5 จงหาวงจรเทเวนิน จากนั้นให้หากระแสที่ไหลผ่านตัวต้านทาน $R_L=6, 16, 36\\;\Omega$
+## ตัวอย่าง 4.5 ##
+{{<admonition abstract "ตัวอย่าง 4.5" false>}}
+จงหาวงจรเทเวนิน จากนั้นให้หากระแสที่ไหลผ่านตัวต้านทาน $R_L=6, 16, 36\\;\Omega$
 
 <figure>
 <p align="center">
@@ -121,3 +123,5 @@ $\qquad\qquad\qquad\qquad\qquad$ $  \quad R_L=6\Omega$,
 $\qquad\qquad\qquad\qquad\qquad$  $\quad R_L=16\Omega$, $ I_L=\dfrac{30}{20}=1.5\mathrm{A}$
 
 $\qquad\qquad\qquad\qquad\qquad$  $ \quad R_L=36\Omega$, $I_L=\dfrac{30}{40}=0.7\mathrm{A}$
+
+{{</admonition>}}
