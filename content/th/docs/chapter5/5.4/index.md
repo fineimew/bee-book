@@ -13,8 +13,8 @@ weight: 540
 toc: true
 ---
 
-{{< admonition>}}
-นิยาม 5.4
+## **อิมพีแดนซ์**
+{{<admonition info "นิยาม 5.4 อิมพีแดนซ์ $Z$" false>}}
  อิมพีแดนซ์ (Z) เป็นความต้านทานของอุปกรณ์ไฟฟ้าในวงจรกระแสสลับ 
  
  (a) กรณีตัวต้านทาน
@@ -48,7 +48,10 @@ R&=|Z|\cos \theta,\qquad X=|Z|\sin \theta \tag{5.42}
 \end{align}
 โดยที่ $R$ เป็นค่าความต้านทาน (resistance) และ $X$ เป็นค่ารีแอคแตนซ์ (reactance) โดยที่ค่า $X$ เป็นได้ทั้งบวกหรือลบ ถ้าค่า $X$ เป็นบวก อิมพีแดนซ์เป็น inductive ถ้าค่า $X$ เป็นลบ อิมพีแดนซ์เป็น capacitive ค่าอิมพีแดนซ์ ค่าความต้านทาน และค่ารีแอคแตนซ์มีหน่วยเป็นโอห์ม
 
-## แอดมิตแตนซ์
+## **แอดมิตแตนซ์**
+
+{{<admonition info "นิยาม 5.5 ค่าแอดมิตแตนซ์ $Y$" false>}}
+
 ค่าแอดมิตแตนซ์ Y (admittance) เป็นส่วนกลับของอิมพีแดนซ์ 
 \begin{equation}
     Y=\dfrac{1}{Z}=\dfrac{I}{V} \tag{5.43}
@@ -58,7 +61,9 @@ R&=|Z|\cos \theta,\qquad X=|Z|\sin \theta \tag{5.42}
     Y=G+jB \tag{5.44}
 \end{equation}
 โดยที่ G เรียกว่าค่าคอนดัคแตนซ์ (conductance) และ B เรียกว่า ซัสเซปแตนซ์ (susceptance) 
-## ความสัมพันธ์ระหว่างแอตมิตแตนซ์กับอิมพีแดนซ์
+{{< /admonition >}}
+
+## **ความสัมพันธ์ระหว่างแอตมิตแตนซ์กับอิมพีแดนซ์**
 \begin{equation}
     Y=G+jB=\dfrac{1}{Z}=\dfrac{1}{R+jX} \tag{5.45}
 \end{equation}
@@ -69,6 +74,7 @@ R&=|Z|\cos \theta,\qquad X=|Z|\sin \theta \tag{5.42}
 จะเห็นได้ว่า $G\neq\dfrac{1}{R}$ ยกเว้นเมื่อค่า $X=0$ จะทำให้ $G=\dfrac{1}{R}$
 
 ## ตัวอย่าง 5.7
+{{<admonition abstract "ตัวอย่าง 5.7" false>}}
 กำหนดให้ $v_s=10\cos 4t$ จงหา $v(t), i(t)$
 
 <figure>
@@ -98,7 +104,7 @@ $$
     \begin{align}
       \mathbf{V}=\mathbf{I}
       \mathbf{Z}_C&=\dfrac{\mathbf{I}}{j\omega C}=\dfrac{1.789\angle{26.57^{\circ}}}{j4\times 0.1}\notag\\\\
-      &=\dfrac{1.789\angle{26.57^{\circ}}}{0.4\angle{90\deg}}=4.47\angle{-63.43^{\circ}}\mathrm{V} \tag{5.47b}
+      &=\dfrac{1.789\angle{26.57^{\circ}}}{0.4\angle{90^{\circ}}}=4.47\angle{-63.43^{\circ}}\mathrm{V} \tag{5.47b}
     \end{align}
 
 เปลี่ยนจากเฟสเซอร์เป็นรูปเวลาได้
@@ -107,3 +113,4 @@ $$
  v(t)&=4.47\cos (4t-63.43^{\circ})\mathrm{V}
 \end{align*}
 สังเกตว่ากระแส $i(t)$ นำแรงดัน $v(t)$ เป็นมุม $90^{\circ}$
+{{< /admonition >}}

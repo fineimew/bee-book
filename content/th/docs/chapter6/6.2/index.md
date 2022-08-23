@@ -14,6 +14,8 @@ toc: true
 ---
 
 ## ตัวอย่าง 6.2
+{{<admonition abstract "ตัวอย่าง 6.2" false>}}
+
 จงหากระแส $\mathbf{I}_o$
 
 <figure>
@@ -45,3 +47,4 @@ toc: true
 \begin{align*}
     \mathbf{I}_o=-\mathbf{I}_2=6.12\angle{144.78^{\circ}}\mathrm{V}
 \end{align*}
+{{</admonition>}}

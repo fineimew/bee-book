@@ -14,7 +14,9 @@ toc: true
 ---
 อุปกรณ์ไฟฟ้าที่พิจารณาคือตัวต้านทาน ตัวเหนี่ยวนำ และ ตัวเก็บประจุ
 
-## ตัวต้านทาน
+## **เฟสเซอร์ของอุปกรณ์ไฟฟ้า**
+
+### ตัวต้านทาน
 กำหนดให้กระแสที่ไหลผ่านตัวต้านทานคือ $i=I_m \cos (\omega t + \phi )$ จากกฏของโอห์มหาแรงดันตกคร่อมตัวต้านทาน $R$ ได้เป็น
 \begin{equation}
     v=Ri = RI_m \cos (\omega t + \phi ) \tag{5.31}
@@ -40,7 +42,7 @@ toc: true
   <figcaption style='text-align:center'>รูปที่ 5.5 เฟสเซอร์ของตัวต้านทาน</figcaption>
 </figure>
 
-## ตัวเหนี่ยวนำ
+### ตัวเหนี่ยวนำ
 กำหนดให้กระแสที่ไหลผ่านตัวเหนี่ยวนำคือ $i=I_m \cos (\omega t + \phi )$ แรงดันตกคร่อมตัวเหนี่ยวนำ $L$ คือ
 \begin{equation}
     v=L\dfrac{di}{dt} = -\omega LI_m \sin (\omega t + \phi ) \tag{5.33}
@@ -70,7 +72,7 @@ toc: true
   <figcaption style='text-align:center'>รูปที่ 5.7 เฟสเซอร์ของตัวเหนี่ยวนำ</figcaption>
 </figure>
 
-## ตัวเก็บประจุ
+### ตัวเก็บประจุ
 กำหนดให้แรงดันตกคร่อมตัวเก็บประจุคือ $v=V_m \cos (\omega t + \phi )$ กระแสที่ไหลผ่านตัวเก็บประจุ $C$ คือ
 \begin{equation}
     i=C\dfrac{dv}{dt} = -\omega CV_m \sin (\omega t + \phi ) \tag{5.36}
@@ -110,7 +112,7 @@ toc: true
   <figcaption style='text-align:center'>รูปที่ 5.9 เฟสเซอร์ของตัวเก็บประจุ</figcaption>
 </figure>
 
-## ตารางสรุปเฟสเซอร์ของอุปกรณ์ไฟฟ้า
+## **ตารางสรุปเฟสเซอร์ของอุปกรณ์ไฟฟ้า**
 
 | อุปกรณ์ไฟฟ้า      | รูปเวลา (time domain) | รูปเฟสเซอร์ (frequency domain) | 
 | :---        |    :----   |  :----   | 
@@ -119,6 +121,7 @@ toc: true
 | C      | $i=C\dfrac{dv}{dt}$      | $\mathbf{V}=\dfrac{\mathbf{I}}{j\omega C}$ |
 
 ## ตัวอย่าง 5.6
+{{<admonition abstract "ตัวอย่าง 5.6" false>}}
 แรงดัน $v=12\cos (60t+45^{\circ})$ ตกคร่อมตัวเหนี่ยวนำ 0.1H จงหากระแสในสภาวะคงตัวที่ไหลผ่านตัวเหนี่ยวนำนี้
 
 คำตอบ
@@ -132,3 +135,4 @@ toc: true
 \begin{equation*}
     i(t)=2\cos (60t -45^{\circ} )\mathrm{A}
 \end{equation*}
+{{</admonition>}}

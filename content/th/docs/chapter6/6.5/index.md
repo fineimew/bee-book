@@ -45,6 +45,8 @@ $$
 </figure>
 
 ## ตัวอย่าง 6.6
+{{<admonition abstract "ตัวอย่าง 6.6" false>}}
+
 จงหาวงจรสมมูลเทเวนินที่ขั้ว a-b
 
 <figure>
@@ -105,7 +107,10 @@ $$
   <figcaption style='text-align:center'>รูปที่ 6.15</figcaption>
 </figure>
 
+{{</admonition>}}
+
 ## ตัวอย่าง 6.7
+{{<admonition abstract "ตัวอย่าง 6.7" false>}}
 จงหากระแส $\mathbf{I}_o$ โดยใช้ทฤษฏีนอร์ตัน
 
 <figure>
@@ -181,3 +186,5 @@ $$
 </p>
   <figcaption style='text-align:center'>รูปที่ 6.18</figcaption>
 </figure>
+
+{{</admonition >}}

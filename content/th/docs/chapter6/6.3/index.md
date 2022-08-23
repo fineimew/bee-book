@@ -14,11 +14,12 @@ toc: true
 ---
 
 ## ตัวอย่าง 6.3
+{{<admonition abstract "ตัวอย่าง 6.3" false>}}
 จงหากระแส $\mathbf{I}_o$
 
 <figure>
 <p align="center">
-  <img src="fig6.3.png" alt="fig 6.3" style="width:60%">
+  <img src="fig6.3.png" alt="fig 6.3" style="width:100%">
 </p>
   <figcaption style='text-align:center'>รูปที่ 6.3 วงจรสำหรับตัวอย่าง 6.3</figcaption>
 </figure>
@@ -106,12 +107,18 @@ toc: true
 \mathbf{I}_o=\mathbf{I^\prime}_o+\mathbf{I^{\prime\prime}}_o=-5+j3.529=6.12\angle{144.78^{\circ}}\mathrm{A} \tag{6.16}
 \end{align}
 
+{{</admonition>}}
+
 ## ตัวอย่าง 6.4
+
+{{<admonition abstract "ตัวอย่าง 6.4" false>}}
 จงหา $v_o$ โดยใช้ทฤษฏีการวางทับซ้อน
+
+คำตอบ
 
 <figure>
 <p align="center">
-  <img src="fig6.4.png" alt="fig 6.4" style="width:60%">
+  <img src="fig6.4.png" alt="fig 6.4" style="width:100%">
 </p>
   <figcaption style='text-align:center'>รูปที่ 6.4 วงจรสำหรับตัวอย่าง 6.4</figcaption>
 </figure>
@@ -133,13 +140,13 @@ toc: true
   <figcaption style='text-align:center'>รูปที่ 6.5</figcaption>
 </figure>
 
-จากรูปที่ 6.5 จะเห็นว่าที่ความถี่เป็น 0 ตัวเก็บประจุจะเปิดวงจรเนื่องจาก $X_C=\dfrac{1}{j \omega C}=\dfrac{1}{j(0)C}=\infty$
- แต่ตัวเหนี่ยวนำจะลัดวงจรเนื่องจาก $X_L=j\omega L=j(0)L=0\\;\Omega$
+จากรูปที่ 6.5 จะเห็นว่าที่ความถี่เป็น 0 ตัวเก็บประจุจะเปิดวงจรเนื่องจาก $$X_C=\dfrac{1}{j \omega C}=\dfrac{1}{j(0)C}=\infty\nonumber$$
+ แต่ตัวเหนี่ยวนำจะลัดวงจรเนื่องจาก $$X_L=j\omega L=j(0)L=0\\;\Omega\nonumber$$
 
 จากการแบ่งแรงดัน
     
 \begin{align}
-    -v_1=\dfrac{1}{1+4}(5)=1\\;\mathrm{V}
+    -v_1=\dfrac{1}{1+4}(5)=1\\;\mathrm{V} \tag{6.17}
 \end{align}
 
 พิจารณาแหล่งจ่ายแรงดัน $10\cos 2t$ โดยการแปลงค่าเป็นเฟสเซอร์
@@ -217,3 +224,6 @@ toc: true
 \begin{align*}
     v_o=-1+2.498\cos (2t-30.79^{\circ})+2.33\sin (5t+10^{\circ})\\;\mathrm{V}
 \end{align*}
+{{</admonition>}}
+
+

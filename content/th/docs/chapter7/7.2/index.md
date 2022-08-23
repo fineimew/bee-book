@@ -85,15 +85,13 @@ $$
 
 {{<admonition abstract "ตัวอย่าง 7.5" false>}}
 จงหาค่าอิมพีแดนซ์ $\mathbf{Z}_L$ ที่ทำให้เกิดการถ่ายกำลังสูงสุด
-{{</admonition>}}
+
 <figure>
 <p align="center">
   <img src="fig7.4.png" alt="fig 7.4" style="width:50%">
 </p>
   <figcaption style='text-align:center'>รูปที่ 7.4 วงจรสำหรับตัวอย่าง 7.5</figcaption>
 </figure>
-
-{{<admonition abstract>}}
 
 คำตอบ
 
@@ -126,15 +124,13 @@ $$
 
 {{<admonition abstract "ตัวอย่าง 7.6" false>}}
 จงหาค่า $R_L$ ที่ทำให้เกิดการถ่ายกำลังสูงสุด และหาค่ากำลังสูงสุด
-{{</admonition>}}
+
 <figure>
 <p align="center">
   <img src="fig7.6.png" alt="fig 7.6" style="width:50%">
 </p>
   <figcaption style='text-align:center'>รูปที่ 7.6 วงจรสำหรับตัวอย่าง 7.6</figcaption>
 </figure>
-
-{{<admonition abstract>}}
 
 คำตอบ
 

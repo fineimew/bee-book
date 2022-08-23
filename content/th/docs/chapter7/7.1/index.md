@@ -92,7 +92,7 @@ P=\dfrac{1}{2}V_mI_m\cos (\theta_v-\theta_i) \tag{7.8} \label{eq7:pav2}
 สมการ \eqref{eq7:pav-r} แสดงให้เห็นว่าวงจรที่มีแต่ตัวต้านทานจะใช้พลังงานเสมอ (ค่ากำลังเฉลี่ยมากกว่า 0)
 
 ### กำลังเฉลี่ยในโหลดที่เป็นตัวเหนี่ยวนำหรือตัวเก็บประจุ
-ในกรณีนี้ค่า  $\theta_v-\theta_i \pm90^{\circ}$ ดังนั้นกำลังเฉลี่ยจะมีค่าเป็น
+ในกรณีนี้ค่า  $\theta_v-\theta_i = \pm90^{\circ}$ ดังนั้นกำลังเฉลี่ยจะมีค่าเป็น
 \begin{equation}
     P=\dfrac{1}{2}V_mI_m\cos 90^{\circ} =0 \label{eq7:pav-lc} \tag{7.12}
 \end{equation}
@@ -152,15 +152,13 @@ P=\dfrac{1}{2}V_mI_m\cos (\theta_v-\theta_i) \tag{7.8} \label{eq7:pav2}
 
 {{<admonition abstract "ตัวอย่าง 7.3" false>}}
 จงหากำลังเฉลี่ยที่ใช้โดยตัวต้านทาน และตัวเหนี่ยวนำ และหากำลังเฉลี่ยที่จ่ายโดยแหล่งจ่ายแรงดัน
-{{</admonition>}}
+
 <figure>
 <p align="center">
   <img src="fig7.1.png" alt="fig 7.1" style="width:50%">
 </p>
   <figcaption style='text-align:center'>รูปที่ 7.1 วงจรสำหรับตัวอย่าง 7.3</figcaption>
 </figure>
-
-{{<admonition abstract>}}
 
 คำตอบ
 
@@ -189,7 +187,7 @@ P=\dfrac{1}{2}V_mI_m\cos (\theta_v-\theta_i) \tag{7.8} \label{eq7:pav2}
 
 {{<admonition abstract "ตัวอย่าง 7.4" false>}}
 จงหากำลังเฉลี่ยของแต่ละอุปกรณ์ไฟฟ้า
-{{</admonition>}}
+
 <figure>
 <p align="center">
   <img src="fig7.2.png" alt="fig 7.2" style="width:100%">
@@ -197,7 +195,7 @@ P=\dfrac{1}{2}V_mI_m\cos (\theta_v-\theta_i) \tag{7.8} \label{eq7:pav2}
   <figcaption style='text-align:center'>รูปที่ 7.2 วงจรสำหรับตัวอย่าง 7.4</figcaption>
 </figure>
 
-{{<admonition abstract>}}
+
 คำตอบ
 
 ใช้การวิเคราะห์แมชดังรูปที่ 7.2(a) สำหรับแมช 1

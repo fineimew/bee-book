@@ -17,6 +17,8 @@ toc: true
 
 
 ## ตัวอย่าง 6.1
+{{<admonition abstract "ตัวอย่าง 6.1" false>}}
+
 จงหา $\mathbf{V}_1$ และ $\mathbf{V}_2$
 
 <figure>
@@ -48,3 +50,4 @@ toc: true
     \mathbf{V}_1=\mathbf{V}_2+10\angle{45^{\circ}}=25.78\angle{-70.48^{\circ}}\mathrm{V}
 \end{align*}
 
+{{</admonition>}}

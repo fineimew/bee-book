@@ -26,6 +26,8 @@ toc: true
 </figure>
 
 ## ตัวอย่าง 6.5
+{{<admonition abstract "ตัวอย่าง 6.5" false>}}
+
 จงหา $\mathbf{V}_x$ โดยทฤษฏีการวางทับซ้อน
 
 <figure>
@@ -61,3 +63,4 @@ toc: true
   <figcaption style='text-align:center'>รูปที่ 6.10</figcaption>
 </figure>
 
+{{</admonition>}}

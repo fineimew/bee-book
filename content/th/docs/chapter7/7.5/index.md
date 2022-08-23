@@ -44,15 +44,15 @@ toc: true
 
 ขนาดของกำลังเชิงซ้อน $\mathbf{S}$ คือกำลังปรากฏ $S$ ดังนั้นหน่วยวัดกำลังเชิงซ้อนคือ volt-amperes (VA)
 
-## **กำลังเชิงซ้อนในรูปของอิมพีแดนซ์ $\mathbf{Z}$** ##
+## **กำลังเชิงซ้อนในรูปของอิมพีแดนซ์** ##
 
 เนื่องจากอิมพีแดนซ์ $\mathbf{Z}$ คือ
 
 \begin{equation}
-    \mathbf{Z}=\dfrac{\mathbf{V}}{\mathbf{I}}=\dfrac{\mathbf{V}\_\text{rms}}{\mathbf{I}\_\text{rms}}=\dfrac{V_{rms}}{I_{rms}}\angle{(\theta_v-\theta_i)} \tag{7.53}
+    \mathbf{Z}=\dfrac{\mathbf{V}}{\mathbf{I}}=\dfrac{\mathbf{V}\_\text{rms}}{\mathbf{I}\_\text{rms}}=\dfrac{V\_{rms}}{I\_{rms}}\angle{(\theta_v-\theta_i)} \tag{7.53}
 \end{equation}
 
-ดังนั้น $\mathbf{V}_\text{rms}=\mathbf{Z}\mathbf{I}_\text{rms}$
+ดังนั้น $\mathbf{V}\_\text{rms}=\mathbf{Z}\mathbf{I}\_\text{rms}$
 แทนค่านี้ลงใน \eqref{eq7:s} 
 
 \begin{equation}

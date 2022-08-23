@@ -15,12 +15,11 @@ toc: true
 
 การแก้วิเคราะห์วงจรกระแสสลับทำได้ง่ายถ้าใช้เฟสเซอร์
 
-{{< admonition>}}
-นิยาม 5.3
+{{<admonition info "นิยาม 5.3 เฟสเซอร์" false>}}
 เฟสเซอร์คือ จำนวนเชิงซ้อนที่ใช้แทนขนาดและมุมเฟสของฟังก์ชันตระกูลซายน์ และสิ่งที่ทำให้เฟสเซอร์ต่างจากจำนวนเชิงซ้อนคือค่าขนาดและมุมขึ้นอยู่กับความถี่ $\omega$
 {{< /admonition >}}
 
-## จำนวนเชิงซ้อน
+## **จำนวนเชิงซ้อน**
 กำหนดให้ $z$ เป็นจำนวนเชิงซ้อนซึ่งเขียนในรูปเชิงพิกัดฉาก (rectangular form) ได้ดังนี้
 \begin{equation}
     z=x+jy\tag{5.13}
@@ -66,7 +65,7 @@ $$
 | การคอนจูเกต   | $z^*=x-jy=r\angle{(-\phi)}$         | 
 | รากที่สอง   | $\sqrt{z}=\sqrt{r}\angle{(\phi/2)}$         | 
 
-## เฟสเซอร์จากสัญญาณเวลา
+## **เฟสเซอร์จากสัญญาณเวลา**
 
 ถ้าแรงดันหรือกระแสเป็นฟังก์ชันของเวลาดังนี้
 \begin{equation}
@@ -77,7 +76,7 @@ $$
     V = V_m\angle{\phi} \tag{5.19}
 \end{equation}
 
-{{< admonition warning>}}
+{{< admonition warning "สำคัญ">}}
   1. ขนาด $V_m$ ต้องเป็นบวก
   2. สัญญาณในรูปเวลาเป็นฟังก์ชัน $\cos$
 {{< /admonition >}}
@@ -96,6 +95,7 @@ i(t) = I_m \sin (\omega t + \theta)= I_m \cos (\omega t -90^{\circ}+\theta ) \ta
 \end{equation}
 
 ## ตัวอย่าง 5.3 
+{{<admonition abstract "ตัวอย่าง 5.3" false>}}
 จงแปลงแรงดัน $v_1=-10\cos (\omega t + 50^{\circ})$ และ $v_2=12 \sin (\omega t - 10^{\circ})$ เป็นเฟสเซอร์
 
 คำตอบ
@@ -117,9 +117,9 @@ $$
    &=10\angle{230^{\circ}} \tag{5.27}
 \end{align}
 เนื่องจาก $v_2$ เป็นฟังก์ชัน $\sin$ ดังนั้นต้องแปลงเป็นฟังก์ชัน $\cos$ ตามสมการ (5.9)
-\begin{equation}
-     v_2=12 \sin (\omega t - 10^{\circ})=12 \cos (\omega t - 90^{\circ} - 10^{\circ}) = 12\cos (\omega t - 100^{\circ}) \tag{5.28}
-\end{equation}
+\begin{align}
+     v_2&=12 \sin (\omega t - 10^{\circ})\notag\\\\&=12 \cos (\omega t - 90^{\circ} - 10^{\circ}) = 12\cos (\omega t - 100^{\circ}) \tag{5.28}
+\end{align}
 ดังนั้นเฟสเซอร์ของ $v_2$ คือ
 \begin{equation}
     \mathbf{V_2} = 12\angle{(-100^{\circ})} \tag{5.29}
@@ -130,8 +130,9 @@ $$
     \mathbf{V_1} = 10\angle{230^{\circ}}=10\angle{(230^{\circ}-360^{\circ})}=10\angle{(-130^{\circ})} \tag{5.30}
 \end{equation}
 ซึ่งจะเห็นได้ชัดว่า $\mathbf{V_1}$ ตาม $\mathbf{V_2}$ อยู่ $30^{\circ}$
+{{</admonition>}}
 
-### เฟสเซอร์ lead หรือ lag
+## **เฟสเซอร์ lead หรือ lag**
 
 {{% notice tip %}}
 ในการหาว่าเฟสเซอร์ตัวใดมีมุมนำหรือตามให้ทำดังนี้
@@ -142,6 +143,7 @@ $$
 {{% /notice %}}
 
 ## ตัวอย่าง 5.4 
+{{<admonition abstract "ตัวอย่าง 5.4" false>}}
 จงหาค่าต่อไปนี้
 
 a. $(40\angle{50^{\circ}} + 20\angle{-30^{\circ}})^{1/2}$
@@ -170,7 +172,11 @@ b. $\dfrac{10\angle{-30^{\circ}}+(3-j4)}{(2+j4)(3-j5)^*}$
     &=0.565\angle{(-160.13^{\circ}})\notag
 \end{align*}
 
-ตัวอย่าง 5.5 กำหนดให้ $i_1=4\cos (\omega t + 30^{\circ})\mathrm{A}$ และ $i_2=5\sin (\omega t -20^{\circ})\mathrm{A}$ จงหาผลรวมของกระแสทั้งสอง
+{{</admonition>}}
+
+## ตัวอย่าง 5.5
+{{<admonition abstract "ตัวอย่าง 5.5" false>}}
+ กำหนดให้ $i_1=4\cos (\omega t + 30^{\circ})\mathrm{A}$ และ $i_2=5\sin (\omega t -20^{\circ})\mathrm{A}$ จงหาผลรวมของกระแสทั้งสอง
 
 คำตอบ
 
@@ -196,4 +202,4 @@ i_2&=5 \cos (\omega t-20^{\circ} -90^{\circ})=5\cos (\omega t -110^{\circ})\\\\
 \begin{equation*}
     i(t)=3.128\cos (\omega t -56.97^{\circ})\\;\\;\mathrm{A}
 \end{equation*}
-
+{{</admonition>}}

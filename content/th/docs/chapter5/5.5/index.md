@@ -13,7 +13,7 @@ weight: 550
 toc: true
 ---
 
-## การต่ออนุกรม
+## **การต่ออนุกรม**
 พิจารณารูปที่ 5.11 กระแส $\mathbf{I}$ ไหลผ่านอิมพีแดนซ์ที่ต่ออนุกรมกัน $N$ ตัว จาก KVL
 \begin{equation}
     \mathbf{V}=\mathbf{V}_1+\mathbf{V}_2+\dots +\mathbf{V}_N=\mathbf{I}(\mathbf{Z}_1+\mathbf{Z}_2+\dots +\mathbf{Z}_N) \tag{5.48}
@@ -46,7 +46,7 @@ toc: true
   <figcaption style='text-align:center'>รูปที่ 5.12 การแบ่งแรงดันสำหรับอิมพีแดนซ์สองตัวที่ต่ออนุกรม</figcaption>
 </figure>
 
-## การต่อขนาน
+## **การต่อขนาน**
 
 <figure>
 <p align="center">
@@ -98,6 +98,7 @@ $$
 \end{equation}
 
 ## ตัวอย่าง 5.8
+{{<admonition abstract "ตัวอย่าง 5.8" false>}}
 จงหาอิมพีแดนซ์ $\mathbf{Z}_{in}$ กำหนดให้ $\omega = 50\;\mathrm{rad/s}$
 
 <figure>
@@ -132,8 +133,10 @@ $$
     &=-j10+\dfrac{(44+j14)(11-j8)}{11^2+8^2}\\\\&=-j10+3.22-j1.07\\;\Omega =3.22-j11.07\\;\Omega
 \end{align*}
 $$
+{{</admonition>}}
 
 ## ตัวอย่าง 5.9
+{{<admonition abstract "ตัวอย่าง 5.9" false>}}
 จงหา $v_o(t)$
 
 <figure>
@@ -169,3 +172,4 @@ $$
 \begin{equation*}
     v_o(t)=17.15\cos (4t + 15.96^{\circ})\mathrm{V}
 \end{equation*}
+{{</admonition>}}
