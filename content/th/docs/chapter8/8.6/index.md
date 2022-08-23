@@ -36,27 +36,38 @@ v_{CN}i_c\nonumber\\\\
 \end{align} 
 
 ใช้คุณสมบัติของตรีโกณ
-\begin{align}
-    \cos A \cos B &= \dfrac{1}{2}[\cos(A+B)+\cos(A-B)]\tag{8.46}\\\\
+\begin{align*}
+    \cos A \cos B &= \dfrac{1}{2}[\cos(A+B)+\cos(A-B)]
+\end{align*}
+
+หาค่า
+
+\begin{align*}
     \cos\omega t\cos (\omega t -\theta) &= \dfrac{1}{2}[\cos(\omega t+\omega t -\theta)+\cos(\omega t-\omega t +\theta)]\notag\\\\
     &= \dfrac{1}{2}[\cos(2\omega t -\theta)+\cos(\theta)]\notag\\\\
     \cos(\omega t -120^{\circ})\cos (\omega t -\theta -120^{\circ}) 
     &= \dfrac{1}{2}[\cos(2\omega t -\theta-240^{\circ})+\cos(\theta)]\notag\\\\
     \cos(\omega t +120^{\circ})\cos (\omega t -\theta +120^{\circ}) 
     &= \dfrac{1}{2}[\cos(2\omega t -\theta+240^{\circ})+\cos(\theta)]\notag\\\\
-\end{align}
+\end{align*}
 
 ได้เป็น
 \begin{align}
-    p&=V_pI_p[3\cos \theta +\cos (2\omega t-\theta) +\cos (2\omega t-\theta -240^{\circ})+\cos (2\omega t -\theta +240^{\circ}]\nonumber\\\\
-    \tag{8.47}
+    p=V_pI_p[&3\cos \theta +\cos (2\omega t-\theta) +\cos (2\omega t-\theta -240^{\circ})+\notag\\\\&\cos (2\omega t -\theta +240^{\circ}]\nonumber
+    \tag{8.46}
 \end{align}
 
 จากคุณสมบัติ
 $$
   \begin{align*}
-  \sin(A \pm B) &= \sin A \cos B \pm \cos A \sin B\notag\\\\
   \cos(A \pm B) &= \cos A \cos B \mp \sin A \sin B\\\\
+  \end{align*}
+$$
+
+หาค่า
+
+$$
+  \begin{align*}
   \cos (2\omega t-\theta -240^{\circ})&= \cos(2\omega t -\theta) \cos (240^{\circ}) + \sin(2\omega t -\theta) \sin (240^{\circ})\\\\
   \cos (2\omega t-\theta +240^{\circ})&= \cos(2\omega t -\theta) \cos (240^{\circ}) - \sin(2\omega t -\theta) \sin (240^{\circ}) 
   \end{align*}
@@ -66,41 +77,41 @@ $$
 
 ทำให้ได้
 \begin{align}
-    p&=V_pI_p[3\cos \theta +\cos \alpha +\cos \alpha \cos 240^{\circ} + \sin \alpha \sin 240^{\circ}\nonumber \\\\&+\cos \alpha \cos 240^{\circ} -\sin \alpha \sin 240^{\circ} ]\notag\\\\&=V_pI_p[3\cos \theta +\cos \alpha + 2\left(-\dfrac{1}{2}\right)\cos\alpha]=3V_pI_p\cos\theta \tag{8.48}
+    p&=V_pI_p[3\cos \theta +\cos \alpha +\cos \alpha \cos 240^{\circ} + \sin \alpha \sin 240^{\circ}\nonumber \\\\&+\cos \alpha \cos 240^{\circ} -\sin \alpha \sin 240^{\circ} ]\notag\\\\&=V_pI_p[3\cos \theta +\cos \alpha + 2\left(-\dfrac{1}{2}\right)\cos\alpha]=3V_pI_p\cos\theta \tag{8.47}
 \end{align}
 ดังนั้นค่ากำลังปัจจุบันมีค่าคงที่ไม่ขึ้นกับเวลา ซึ่งไม่ว่าโหลดต่อแบบ $\Delta$ หรือ $Y$ ก็ได้ค่าคงที่เหมือนกัน และค่ากำลังเฉลี่ยต่อเฟสทั้งกรณีที่โหลดต่อแบบ $\Delta$ และ ต่อแบบ $Y$ คือ $p/3$ ดังนั้น ค่ากำลังเฉลี่ยต่อเฟสคือ
 \begin{align}
-    P_p=V_pI_p\cos \theta \tag{8.49}
+    P_p=V_pI_p\cos \theta \tag{8.48}
 \end{align}
 และค่ากำลังรีแอคทีฟต่อเฟสคือ
 \begin{align}
-    Q_p=V_pI_p\sin \theta \tag{8.50}
+    Q_p=V_pI_p\sin \theta \tag{8.49}
 \end{align}
 ค่ากำลังปรากฏต่อเฟสคือ
 \begin{align}
-    S_p=V_pI_p \tag{8.51}
+    S_p=V_pI_p \tag{8.50}
 \end{align}
 และค่ากำลังเชิงซ้อนต่อเฟสคือ
 \begin{align}
-    \mathbf{S}_p=P_p+jQ_p=\mathbf{V}_p\mathbf{I}_p^\ast \tag{8.52}
+    \mathbf{S}_p=P_p+jQ_p=\mathbf{V}_p\mathbf{I}_p^\ast \tag{8.51}
 \end{align}
 โดยที่ $\mathbf{V}_p$  และ $\mathbf{I}_p$ คือแรงดันเฟสและกระแสเฟสที่มีขนาด $V_p$ และ $I_p$ ตามลำดับ ค่ากำลังเฉลี่ยรวมคือ ผลรวมของค่ากำลังเฉลี่ยแต่ละเฟส
 \begin{align}
-    P=P_a+P_b+P_c=3P_p=3V_pI_p\cos \theta = \sqrt{3}V_LI_L \cos \theta \label{eq8:p} \tag{8.53}
+    P=P_a+P_b+P_c=3P_p=3V_pI_p\cos \theta = \sqrt{3}V_LI_L \cos \theta \label{eq8:p} \tag{8.52}
 \end{align}
 สำหรับโหลดที่ต่อแบบ $Y$ ค่า $I_L=I_p$ แต่ $V_L=\sqrt{3}I_p$ แต่กรณีที่โหลดต่อแบบ $\Delta$ ค่า $I_L=\sqrt{3}I_p$ แต่ $V_L=V_p$ ดังนั้นสมการ  \eqref{eq8:p} ใช้ได้ทั้งกรณีที่โหลดต่อแบบ Y และต่อแบบ $\Delta$ ในทำนองเดียวกันกำลังรีแอคทีฟรวมคือ
 \begin{align}
-    Q=Q_a+Q_b+Q_c=3Q_p=3V_pI_p\sin \theta = \sqrt{3}V_LI_L \sin \theta \tag{8.54}
+    Q=Q_a+Q_b+Q_c=3Q_p=3V_pI_p\sin \theta = \sqrt{3}V_LI_L \sin \theta \tag{8.53}
 \end{align}
 กำลังเชิงซ้อนรวมคือ
 \begin{align}
-    \mathbf{S}=3\mathbf{S}_p=3\mathbf{V}_p\mathbf{I}_p^\ast=3I_p^2\mathbf{Z}_p=\dfrac{3V_p^2}{\mathbf{Z}_p^\ast} \label{eq8:stotal} \tag{8.55}
+    \mathbf{S}=3\mathbf{S}_p=3\mathbf{V}_p\mathbf{I}_p^\ast=3I_p^2\mathbf{Z}_p=\dfrac{3V_p^2}{\mathbf{Z}_p^\ast} \label{eq8:stotal} \tag{8.54}
 \end{align}
 โดยที่ $\mathbf{Z}_p=Z\angle{\theta}$ คืออิมพีแดนซ์โหลดต่อเฟส ($\mathbf{Z}_p$  อาจเป็นได้ทั้ง $\mathbf{Z}\_Y$ หรือ $\mathbf{Z}\_{\Delta}$)
 สมการ \eqref{eq8:stotal} อาจเขียนอีกแบบคือ
 
 \begin{align}
-    \mathbf{S}=P+jQ=\sqrt{3}V_LI_L\angle{\theta}  \tag{8.56}
+    \mathbf{S}=P+jQ=\sqrt{3}V_LI_L\angle{\theta}  \tag{8.55}
 \end{align}
 
 อย่าลืมว่าค่า $V_p, I_p, V_L, I_L$ เป็นค่า rms ทั้งหมด และมุม $\theta$ เป็นมุมของอิมพีแดนซ์โหลด หรือมุมผลต่างระหว่างมุมเฟสของแรงดันและมุมเฟสของกระแส
