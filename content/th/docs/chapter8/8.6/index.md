@@ -32,7 +32,7 @@ toc: true
     p&=p_a+p_b+p_c=v_{AN}i_a+v_{BN}i_b+
 v_{CN}i_c\nonumber\\\\
 &=2V_pI_p[\cos\omega t\cos (\omega t -\theta) +\cos (\omega t -120^{\circ})\cos (\omega t -\theta-120^{\circ}) \nonumber \\\\
-&+ \cos (\omega t +120^{\circ})\cos (\omega t -\theta+120^{\circ})]\tag{8.45}
+&+ \cos (\omega t +120^{\circ})\cos (\omega t -\theta+120^{\circ})]\tag{8.45}\label{eq:p3int}
 \end{align} 
 
 ใช้คุณสมบัติของตรีโกณ
@@ -51,7 +51,7 @@ v_{CN}i_c\nonumber\\\\
     &= \dfrac{1}{2}[\cos(2\omega t -\theta+240^{\circ})+\cos(\theta)]\notag\\\\
 \end{align*}
 
-ได้เป็น
+แทนค่าที่ได้ลงในสมการ \eqref{eq:p3int} ได้เป็น
 \begin{align}
     p=V_pI_p[&3\cos \theta +\cos (2\omega t-\theta) +\cos (2\omega t-\theta -240^{\circ})+\notag\\\\&\cos (2\omega t -\theta +240^{\circ}]\nonumber
     \tag{8.46}
