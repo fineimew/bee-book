@@ -1,5 +1,5 @@
 ---
-title: "2.2 Branch Node Loop"
+title: "2.6 การแปลงรูปวงจร"
 description: ""
 date: 2022-08-15T08:20:22+07:00
 lastmod: 2022-08-15T08:20:22+07:00
@@ -9,10 +9,10 @@ menu:
   videos:
     parent: "chapter2"
     identifier: "chapter2-4818703dd4f5338d461786f9267e2a64"
-weight: 2220
+weight: 2260
 toc: true
 ---
 
-## Branch Node Loop
+## การแปลงรูปวงจร Y-$\Delta$ และ $\Delta$-Y 
 
-{{<vimeo 740750111 >}}
+{{<vimeo 742962796 >}}

@@ -1,0 +1,41 @@
+---
+title : "บทที่ ๒ กฏพื้นฐานทางไฟฟ้า"
+description: "Chapter 2"
+lead: ""
+date: 2020-10-06T08:48:45+00:00
+lastmod: 2020-10-06T08:48:45+00:00
+draft: false
+images: []
+weight: 2200
+type: docs
+---
+
+<style>
+  p.b {
+  text-align: left;
+}
+.nb{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nobullet {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    text-align: left;
+}
+</style>
+
+{{< admonition >}}
+<p class="b">วิดีทัศน์ บทที่ ๒ กฏพื้นฐานทางไฟฟ้า</p>
+<ul class="nb">
+<li class="nobullet"><a href="/videos/chapter2/2.1/">๒.๑ บทนำ</a></li>
+<li class="nobullet"><a href="/videos/chapter2/2.2/">๒.๒ ความต้านทานวัสดุ</a></li>
+<li class="nobullet"><a href="/videos/chapter2/2.3/">๒.๓ กฏของโอห์ม</a></li>
+</ul>
+<li class="nobullet"><a href="/videos/chapter2/2.4/">๒.๔ Branch Node Loop</a></li>
+<li class="nobullet"><a href="/videos/chapter2/2.5/">๒.๕ KCL</a></li>
+<li class="nobullet"><a href="/videos/chapter2/2.6/">๒.๖ KVL</a></li>
+</ul>
+

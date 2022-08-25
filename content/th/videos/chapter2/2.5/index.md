@@ -1,18 +1,15 @@
 ---
-title: "Chapter2"
-description: ""
-date: 2022-08-15T08:20:22+07:00
-lastmod: 2022-08-15T08:20:22+07:00
-draft: true
+title : "2.5 การแบ่งกระแส"
+description: "Chapter 2"
+lead: ""
+date: 2020-10-06T08:48:45+00:00
+lastmod: 2020-10-06T08:48:45+00:00
+draft: false
 images: []
-menu:
-  docs:
-    parent: "chapter2"
-    identifier: "chapter2-4818703dd4f5338d461786f9267e2a64"
-weight: 250
-toc: true
+weight: 2250
 ---
 
-## KCL
+## **การแบ่งกระแส**
 
-{{<vimeo 740753977 >}}
+{{<vimeo 742962738 >}}
+

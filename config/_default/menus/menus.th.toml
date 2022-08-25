@@ -41,7 +41,7 @@
 
 [[main]]
   name = "วิดีทัศน์"
-  url = "/videos/"
+  url = "/videos/introduction"
   weight = 19
 
 #[[main]]

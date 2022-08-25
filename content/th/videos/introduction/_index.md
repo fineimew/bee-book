@@ -7,12 +7,13 @@ lastmod: 2022-08-04T14:11:21+07:00
 draft: false
 images: []
 menu:
-  videos:
-    parent: "videos"
-    identifier: "videos-2ac2e141c94a4ed38e0b48493b3bf085"
-weight: 2000
-toc: true
+  docs:
+    parent: "introduction"
+    identifier: "introduction-2ac2e141c94a4ed38e0b48493b3bf085"
+weight: 2100
+toc: false
 ---
+
 
 <style>
 .nb{

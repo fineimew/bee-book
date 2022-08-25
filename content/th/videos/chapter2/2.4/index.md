@@ -1,18 +1,18 @@
 ---
-title: "Chapter2"
+title: "2.4 การแบ่งแรงดัน"
 description: ""
 date: 2022-08-15T08:20:22+07:00
 lastmod: 2022-08-15T08:20:22+07:00
-draft: true
+draft: false
 images: []
 menu:
-  docs:
+  videos:
     parent: "chapter2"
     identifier: "chapter2-4818703dd4f5338d461786f9267e2a64"
-weight: 240
+weight: 2240
 toc: true
 ---
 
-## Branch Node Loop
+## **การแบ่งแรงดัน**
 
-{{<vimeo 740750111 >}}
+{{<vimeo 742962858 >}}
