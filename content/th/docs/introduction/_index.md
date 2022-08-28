@@ -31,12 +31,12 @@ toc: false
 </style>
 
 
-#### หนังสือสำหรับวิชา 
+#### หนังสือสำหรับวิชา
 #### วิศวกรรมไฟฟ้าพื้นฐาน
 
 <ul class="nb">
 <li class="nobullet"><a href="/docs/chapter1/">บทที่ ๑ ปริมาณไฟฟ้า</a></li>
-<li class="nobullet"><a href="/docs/chapter2/">บทที่ ๒ กฏพื้นฐานไฟฟ้า</a></li>
+<li class="nobullet"><a href="/docs/chapter2/">บทที่ ๒ กฎพื้นฐานไฟฟ้า</a></li>
 <li class="nobullet"><a href="/docs/chapter3/">บทที่ ๓ การวิเคราะห์วงจรไฟฟ้า</a></li>
 <li class="nobullet"><a href="/docs/chapter4/">บทที่ ๔ ทฤษฏีวงจรไฟฟ้า</a></li>
 <li class="nobullet"><a href="/docs/chapter5/">บทที่ ๕ เฟสเซอร์</a></li>

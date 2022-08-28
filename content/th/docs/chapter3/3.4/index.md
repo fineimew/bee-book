@@ -14,7 +14,7 @@ toc: true
 ---
 
 การวิเคราะห์แยกเป็น 2 กรณีดังนี้
-1. แหล่งจ่ายกระแสปรากฏในแมชเดียว ดังรูปที่ 3.15 ซึ่งทำให้หากระแสแมช 2 $i_2=-5\mathrm{A}$ และเขียน KVL สำหรับแมช 1 ได้เป็น
+1. แหล่งจ่ายกระแสปรากฎในแมชเดียว ดังรูปที่ 3.15 ซึ่งทำให้หากระแสแมช 2 $i_2=-5\mathrm{A}$ และเขียน KVL สำหรับแมช 1 ได้เป็น
 $$
     \begin{equation}
         -10+4i_1+6(i_1-i_2)=0 \quad \rightarrow \quad i_1=-2\mathrm{A}
@@ -29,13 +29,13 @@ $$
 </figcaption>
 </figure>
 
-2. แหล่งจ่ายกระแสปรากฏระหว่างสองแมชซึ่งจะไม่สามารถเขียน KVL ได้เนื่องจากไม่ทราบแรงดันตกคร่อมแหล่งจ่ายกระแส วิธีแก้คือสร้าง supermesh เพื่อซ่อนแหล่งจ่ายกระแสและอุปกรณ์ไฟฟ้าใดๆที่ต่ออนุกรมกับมัน ดังแสดงในรูปที่ 3.16(b)
+2. แหล่งจ่ายกระแสปรากฎระหว่างสองแมชซึ่งจะไม่สามารถเขียน KVL ได้เนื่องจากไม่ทราบแรงดันตกคร่อมแหล่งจ่ายกระแส วิธีแก้คือสร้าง supermesh เพื่อซ่อนแหล่งจ่ายกระแสและอุปกรณ์ไฟฟ้าใดๆที่ต่ออนุกรมกับมัน ดังแสดงในรูปที่ 3.16(b)
 
 <figure>
 <p align="center">
   <img src="fig3.16.png" alt="fig 3.16" style="width:100%">
 </p>
-  <figcaption style='text-align:center'>รูปที่ 3.16 
+  <figcaption style='text-align:center'>รูปที่ 3.16
 </figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ $$
     i_2=i_1+6  \label{eq3:case2-2} \tag{3.30}
 \end{equation}
 $$
-แก้สมการ \eqref{eq3:case2-1} และ \eqref{eq3:case2-2} ได้ 
+แก้สมการ \eqref{eq3:case2-1} และ \eqref{eq3:case2-2} ได้
 $$
 \begin{equation}
     i_1=-3.2\\;\mathrm{A} \quad i_2=2.8\\;\mathrm{A} \tag{3.31}
@@ -66,7 +66,7 @@ $$
 3. supermesh ต้องการทั้ง KVL และ KCL ในการแก้สมการ
 {{< /admonition >}}
 
-## ตัวอย่าง 3.7 
+## ตัวอย่าง 3.7
 {{<admonition abstract "ตัวอย่าง 3.7" false>}}
 จงหากระแสแมช $i_1, i_2, i_3$
 
@@ -90,7 +90,7 @@ $$
 เขียน KVL สำหรับ mesh $i_3$
 $$
             \begin{align}
-                2(i_3-i_1)+2i_3+4(i_3-i_2)&=0\nonumber\\\\   
+                2(i_3-i_1)+2i_3+4(i_3-i_2)&=0\nonumber\\\\
                 -2i_1-4i_2+8i_3&=0 \label{eq3:supermesh-2} \tag{3.33}
             \end{align}
 $$
@@ -100,7 +100,7 @@ $$
                 i_1-i_2&=4 \label{eq3:supermesh-3} \tag{3.34}
             \end{align}
 $$
-แก้สมการ \eqref{eq3:supermesh-1}   \eqref{eq3:supermesh-2} และ  \eqref{eq3:supermesh-3}  
+แก้สมการ \eqref{eq3:supermesh-1}   \eqref{eq3:supermesh-2} และ  \eqref{eq3:supermesh-3}
  หาคำตอบได้ กระแสแมช \
 $$
  \begin{equation*}
@@ -112,7 +112,7 @@ $$
 <p align="center">
   <img src="fig3.18.png" alt="fig 3.18" style="width:60%">
 </p>
-  <figcaption style='text-align:center'>รูปที่ 3.18 
+  <figcaption style='text-align:center'>รูปที่ 3.18
 </figcaption>
 </figure>
 {{</admonition>}}

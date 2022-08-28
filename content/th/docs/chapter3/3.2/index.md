@@ -41,7 +41,7 @@ Supernode คือ โหนดที่ครอบแหล่งจ่าย
 $$
 \begin{align}
                 i_1+i_4&=i_2+i_3\nonumber\\\\
-            \frac{v_1-v_2}{2}+\frac{v_1-v_3}{4}\nonumber&=\frac{v_2-0}{8}+\frac{v_3-0}{6}\\\\   
+            \frac{v_1-v_2}{2}+\frac{v_1-v_3}{4}\nonumber&=\frac{v_2-0}{8}+\frac{v_3-0}{6}\\\\
              \frac{10-v_2}{2}+\frac{10-v_3}{4}\nonumber&=\frac{v_2}{8}+\frac{v_3}{6}\\\\
                 \frac{10}{2}+\frac{-v_2}{2}+\frac{10}{4}+\frac{-v_3}{4}\nonumber&=\frac{v_2}{8}+\frac{v_3}{6}\\\\
                 \frac{v_2}{8}+\frac{v_3}{6}+\frac{v_2}{2}+\frac{v_3}{4}\nonumber&=\frac{10}{2}+\frac{10}{4}\\\\
@@ -73,7 +73,7 @@ $$
 3. supernode ต้องการทั้ง KVL และ KCL ในการแก้สมการ
 {{< /admonition >}}
 
-## ตัวอย่าง 3.3 
+## ตัวอย่าง 3.3
 {{<admonition abstract "ตัวอย่าง 3.3" false>}}
 จงหาแรงดันโหนด
 
@@ -95,7 +95,7 @@ $$
 <p align="center">
   <img src="fig3.8.png" alt="fig 3.8" style="width:100%">
 </p>
-  <figcaption style='text-align:center'>รูปที่ 3.8 
+  <figcaption style='text-align:center'>รูปที่ 3.8
 </figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ $$
                 \frac{v_1}{2}+\frac{v_2}{4}&=2-7=-5 \label{eq3:ex2-sup-node1}\tag{3.14}
             \end{align}
 $$
-ใช้กฏ KVL หาความสัมพันธ์ $v_1$ และ $v_2$
+ใช้กฎ KVL หาความสัมพันธ์ $v_1$ และ $v_2$
 $$
 \begin{align}
                 -v_1-2+v_2&=0\nonumber\\\\
@@ -117,7 +117,7 @@ $$
 
 {{</admonition>}}
 
-## ตัวอย่าง 3.4 
+## ตัวอย่าง 3.4
 {{<admonition abstract "ตัวอย่าง 3.4" false>}}
 จงหาแรงดันโหนด และแรงดัน $v_x$
 
@@ -125,7 +125,7 @@ $$
 <p align="center">
   <img src="fig3.9.png" alt="fig 3.9" style="width:40%">
 </p>
-  <figcaption style='text-align:center'>รูปที่ 3.9 วงจรสำหรับตัวอย่าง 3.4 
+  <figcaption style='text-align:center'>รูปที่ 3.9 วงจรสำหรับตัวอย่าง 3.4
 </figcaption>
 </figure>
 
@@ -138,7 +138,7 @@ $$
 <p align="center">
   <img src="fig3.10.png" alt="fig 3.10" style="width:40%">
 </p>
-  <figcaption style='text-align:center'>รูปที่ 3.10  
+  <figcaption style='text-align:center'>รูปที่ 3.10
 </figcaption>
 </figure>
 
@@ -160,10 +160,10 @@ $$
 \begin{align}
 v_3-v_2&=5 \label{eq3:ex2-sup2-node3}\tag{3.18}
 \end{align}
-$$            
+$$
 แก้สมการ \ref{eq3:ex2-sup2-node1}, \ref{eq3:ex2-sup2-node2} และ \ref{eq3:ex2-sup2-node3} หาคำตอบได้ แรงดันโหนด $v_1=11.92\\;\text{V}$,
 $v_2=-13.08\\;\text{V}$ และ $v_3=-8.08\\;\text{V}$
-ส่วน $v_x = v_1 - v_3=11.92- (-8.08)= 20\\;\text{V}$ 
+ส่วน $v_x = v_1 - v_3=11.92- (-8.08)= 20\\;\text{V}$
 หรือหา $v_x$ โดยใช้ KVL ได้ $v_x+5-25=0$ ย้ายฝั่งได้ $v_x=20\\;\text{V}$
 
 {{</admonition>}}

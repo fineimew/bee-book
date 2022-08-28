@@ -17,7 +17,7 @@ toc: true
 ## **เฟสเซอร์ของอุปกรณ์ไฟฟ้า**
 
 ### ตัวต้านทาน
-กำหนดให้กระแสที่ไหลผ่านตัวต้านทานคือ $i=I_m \cos (\omega t + \phi )$ จากกฏของโอห์มหาแรงดันตกคร่อมตัวต้านทาน $R$ ได้เป็น
+กำหนดให้กระแสที่ไหลผ่านตัวต้านทานคือ $i=I_m \cos (\omega t + \phi )$ จากกฎของโอห์มหาแรงดันตกคร่อมตัวต้านทาน $R$ ได้เป็น
 \begin{equation}
     v=Ri = RI_m \cos (\omega t + \phi ) \tag{5.31}
 \end{equation}
@@ -114,8 +114,8 @@ toc: true
 
 ## **ตารางสรุปเฟสเซอร์ของอุปกรณ์ไฟฟ้า**
 
-| อุปกรณ์ไฟฟ้า      | รูปเวลา (time domain) | รูปเฟสเซอร์ (frequency domain) | 
-| :---        |    :----   |  :----   | 
+| อุปกรณ์ไฟฟ้า      | รูปเวลา (time domain) | รูปเฟสเซอร์ (frequency domain) |
+| :---        |    :----   |  :----   |
 | R      | $v=Ri$      | $\mathbf{V}=R\mathbf{I}$ |
 | L      | $v=L\dfrac{di}{dt}$      | $\mathbf{V}=j\omega L\mathbf{I}$   |
 | C      | $i=C\dfrac{dv}{dt}$      | $\mathbf{V}=\dfrac{\mathbf{I}}{j\omega C}$ |

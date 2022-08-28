@@ -1,5 +1,5 @@
 ---
-title: "7.4 กำลังปรากฏและตัวประกอบกำลัง"
+title: "7.4 กำลังปรากฎและตัวประกอบกำลัง"
 description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 lead: ""
 date: 2020-10-06T08:48:57+00:00
@@ -13,12 +13,12 @@ weight: 740
 toc: true
 ---
 
-{{<admonition info "นิยาม 7.4 กำลังปรากฏ" false>}}
-กำลังปรากฏ (apparent power) S คือผลคูณของแรงดัน rms กับกระแส rms
+{{<admonition info "นิยาม 7.4 กำลังปรากฎ" false>}}
+กำลังปรากฎ (apparent power) S คือผลคูณของแรงดัน rms กับกระแส rms
 \begin{align}
     S=V_\text{rms}I_\text{rms} \tag{7.43}
 \end{align}
-จากสมการ $(7.41)$ นำมาเขียนใหม่ในรูปของกำลังปรากฏได้เป็น
+จากสมการ $(7.41)$ นำมาเขียนใหม่ในรูปของกำลังปรากฎได้เป็น
 \begin{align}
     P=V_\text{rms}I_\text{rms}\cos (\theta_v - \theta_i)=S\cos (\theta_v - \theta_i) \tag{7.44}
 \end{align}
@@ -36,7 +36,7 @@ $\cos (\theta_v - \theta_i)$ มีชื่อเรียกเป็นพิ
 \begin{align}
     pf=\dfrac{P}{S}=\cos (\theta_v - \theta_i) \tag{7.45}
 \end{align}
-มุม $(\theta_v - \theta_i)$ เป็นมุมของอิมพีแดนซ์ $Z$ ด้วย 
+มุม $(\theta_v - \theta_i)$ เป็นมุมของอิมพีแดนซ์ $Z$ ด้วย
 \begin{align}
     \mathbf{Z}=\dfrac{\mathbf{V}}{\mathbf{I}}=\dfrac{V_m\angle{\theta_v}}{I_m\angle{\theta_i}}=\dfrac{V_m}{I_m}\angle{\theta_v-\theta_i}\tag{7.46}
 \end{align}
@@ -49,9 +49,9 @@ $\cos (\theta_v - \theta_i)$ มีชื่อเรียกเป็นพิ
 
 ค่าของ pf ขึ้นอยู่กับชนิดของโหลดดังนี้
 
-1. ในกรณีที่โหลดเป็นตัวต้านทาน ค่า pf = 1 เนื่องจากมุมเฟสของแรงดันและกระแสเท่ากัน $\mathrm{pf}=\cos (\theta_v - \theta_i)=\cos 0 = 1$ 
+1. ในกรณีที่โหลดเป็นตัวต้านทาน ค่า pf = 1 เนื่องจากมุมเฟสของแรงดันและกระแสเท่ากัน $\mathrm{pf}=\cos (\theta_v - \theta_i)=\cos 0 = 1$
 2. ในกรณีที่โหลดเป็นตัวเหนี่ยวนำหรือตัวเก็บประจุ ค่า pf = 0 เนื่องจากมุมเฟสของแรงดันและกระแสต่างกันเป็น $90^{\circ}$ ดังนั้น $\mathrm{pf}=\cos (\pm 90^{\circ})=0$
 
-3. ในกรณีที่โหลดมีทั้งตัวต้านทาน และ ตัวเหนี่ยวนำ หรือ ตัวเก็บประจุ ค่า pf อยู่ระหว่าง 0 กับ 1 โดยที่ค่า pf จะเป็น 
+3. ในกรณีที่โหลดมีทั้งตัวต้านทาน และ ตัวเหนี่ยวนำ หรือ ตัวเก็บประจุ ค่า pf อยู่ระหว่าง 0 กับ 1 โดยที่ค่า pf จะเป็น
     - leading ถ้ามุมเฟสกระแสนำมุมเฟสของแรงดัน มันบอกเป็นนัยว่าโหลดเป็นตัวเก็บประจุ (เป็นส่วนใหญ่)
     - laggin ถ้ามุมเฟสของกระแสตามมุมเฟสของแรงดันและมันบอกเป็นนัยว่าโหลดเป็นตัวเหนี่ยวนำ (เป็นส่วนใหญ่)

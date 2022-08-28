@@ -34,7 +34,7 @@ toc: true
 \begin{equation}
     \mathbf{I}=\dfrac{\mathbf{V}}{\mathbf{Z}_1+\mathbf{Z_2}} \tag{5.50}
 \end{equation}
-การหาแรงดันที่ตกคร่อมอิมพีแดนซ์แต่ละตัวใช้กฏแบ่งแรงดันดังนี้
+การหาแรงดันที่ตกคร่อมอิมพีแดนซ์แต่ละตัวใช้กฎแบ่งแรงดันดังนี้
 \begin{equation}
     \mathbf{V}_1=\dfrac{\mathbf{Z}_1}{\mathbf{Z}_1+\mathbf{Z}_2}\mathbf{V}\qquad\mathbf{V}_2=\dfrac{\mathbf{Z}_2}{\mathbf{Z}_1+\mathbf{Z}_2}\mathbf{V} \tag{5.51}
 \end{equation}
@@ -55,7 +55,7 @@ toc: true
   <figcaption style='text-align:center'>รูปที่ 5.13 การต่อขนานของอิมพีแดนซ์ $N$ ตัว</figcaption>
 </figure>
 
-จากรูปที่ 5.13 เป็นการขนานของอิมพีแดนซ์ $N$ ตัว ใช้กฏ KCL
+จากรูปที่ 5.13 เป็นการขนานของอิมพีแดนซ์ $N$ ตัว ใช้กฎ KCL
 
 $$
 \begin{equation}
@@ -82,7 +82,7 @@ $$
 สำหรับกรณี $N=2$ อิมพีแดนซ์สมมูลคือ
 \begin{equation}
     \mathbf{Z}_{eq}=\dfrac{\mathbf{Z}_1\mathbf{Z}_2}{\mathbf{Z}_1+\mathbf{Z}_2} \tag{5.55}
-\end{equation} 
+\end{equation}
 
 <figure>
 <p align="center">
@@ -110,7 +110,7 @@ $$
 
 คำตอบ
 
-กำหนดให้ 
+กำหนดให้
 \begin{align*}
     \mathbf{Z}_1&=\text{อิมพีแดนซ์ของตัวเก็บประจุ 2 mF}\\\\
     \mathbf{Z}_2&=\text{อิมพีแดนซ์ของตัวต้านทาน 3 $\Omega$ ต่ออนุกรมกับตัวเก็บประจุ 10 mF}\\\\
@@ -159,11 +159,11 @@ $$
     \mathbf{Z}_1&=\text{อิมพีแดนซ์ของตัวต้านทาน 60 $\Omega$}\\\\
     \mathbf{Z}_2&=\text{อิมพีแดนซ์ของตัวเหนี่ยวนำ 5H ต่อขนานกับตัวเก็บประจุ 10 mF}
 \end{align*}
-ดังนั้น $Z_1=60\\;\Omega$ 
+ดังนั้น $Z_1=60\\;\Omega$
 \begin{equation*}
     \mathbf{Z}_2=-j25||j20=\dfrac{-j25\times j20}{-j25+j20}=j100\;\Omega
 \end{equation*}
-ใช้กฏแบ่งแรงดัน
+ใช้กฎแบ่งแรงดัน
 \begin{align*}
     \mathbf{V}_o&=\dfrac{\mathbf{Z}_2}{\mathbf{Z}_1+\mathbf{Z}_2}\mathbf{V}_s=\dfrac{j100}{60+j100}(20\angle{-15^{\circ}})\\\\
     &=(0.8575\angle{30.96^{\circ}})(20\angle{-15^{\circ}})=17.15\angle{15.96^{\circ}}\mathrm{V}

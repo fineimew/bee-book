@@ -68,7 +68,7 @@ toc: true
     i_3=\dfrac{8}{8+4}(3)=2\mathrm{A}
 \end{equation*}
 $$
-ใช้กฏโอห์มหาแรงดัน $v_2$
+ใช้กฎโอห์มหาแรงดัน $v_2$
 $$
 \begin{equation*}
     v_2=i_3(4)=2\times4=8\mathrm{V}
@@ -113,7 +113,7 @@ $$
 
 จากรูปที่ 4.5(a) หาความต้านรวม (ที่ต่อในแนวนอนระหว่างแหล่งจ่ายแรงดัน $12\mathrm{V}$ กับความต้าน $3\Omega$ ในแนวตั้ง)ได้เป็น $(8\Omega + 4\Omega)||(4\Omega)=3\Omega$
 
-จากรูปที่ 4.5(b) ใช้กฏของโอห์ม
+จากรูปที่ 4.5(b) ใช้กฎของโอห์ม
 $$
     \begin{align}
                 i_1&=\frac{12}{6}=2\mathrm{A} \tag{4.7}
@@ -128,14 +128,14 @@ $$
   <figcaption style='text-align:center'>รูปที่ 4.6 พิจารณาเฉพาะแหล่งจ่ายแรงดัน $24\mathrm{V}$</figcaption>
 </figure>
 
-ใช้กฏแบ่งแรงดัน
+ใช้กฎแบ่งแรงดัน
 $$
       \begin{align*}
           v_1&=\left(\frac{12/7}{12+12/7}\right)24\nonumber\\\\
           v_1&=\left(\frac{12}{96}\right)24=3\mathrm{V}\nonumber
       \end{align*}
 $$
-จากกฏของโอห์ม
+จากกฎของโอห์ม
 $$
       \begin{equation}
           i_2=-\dfrac{v_1}{3}=-1\mathrm{A}  \tag{4.8}

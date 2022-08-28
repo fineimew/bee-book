@@ -53,7 +53,7 @@ toc: true
   <figcaption style='text-align:center'>รูปที่ 7.13 การใช้ตัวเก็บประจุช่วยในการลดกำลัง VAR ในวงจรที่โหลดเป็นตัวเหนี่ยวนำ</figcaption>
 </figure>
 
-พิจารณาสามเหลี่ยมกำลังในรูปที่ 7.13 ถ้าโหลดเหนี่ยวนำเดิมมีกำลังปรากฏเป็น $S_1$
+พิจารณาสามเหลี่ยมกำลังในรูปที่ 7.13 ถ้าโหลดเหนี่ยวนำเดิมมีกำลังปรากฎเป็น $S_1$
 \begin{align}
     P=S_1\cos \theta_1,\qquad Q_1=S_1\sin \theta_1 = P\tan \theta_1 \tag{7.62}
 \end{align}
@@ -94,7 +94,7 @@ toc: true
 \begin{align*}
     \cos \theta_1=0.8\qquad\Rightarrow \qquad \theta_1=36.87^{\circ}
 \end{align*}
-ค่ากำลังปรากฏคือ
+ค่ากำลังปรากฎคือ
 \begin{align*}
     S_1=\dfrac{P}{\cos\theta_1}=\dfrac{4000}{0.8}=5000\\;\mathrm{VA}
 \end{align*}
@@ -106,7 +106,7 @@ toc: true
 \begin{align*}
     \cos \theta_2=0.95\qquad\Rightarrow \qquad \theta_1=18.19^{\circ}
 \end{align*}
-ค่ากำลัง $P$ ไม่เปลี่ยน แต่กำลังปรากฏเปลี่ยนเป็น
+ค่ากำลัง $P$ ไม่เปลี่ยน แต่กำลังปรากฎเปลี่ยนเป็น
 \begin{align*}
     S_2=\dfrac{P}{\cos\theta_2}=4210.5\\;\mathrm{VA}
 \end{align*}

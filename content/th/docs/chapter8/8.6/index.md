@@ -15,7 +15,7 @@ toc: true
 
 ## กำลังในระบบสมดุล
 
-หากำลังในระบบสมดุลโดยวิเคราะห์จากโดเมนเวลา ค่ากำลังปัจจุบัน (instantaneous power) ที่โหลดใช้คือ $p(t)=v(t)i(t)$ 
+หากำลังในระบบสมดุลโดยวิเคราะห์จากโดเมนเวลา ค่ากำลังปัจจุบัน (instantaneous power) ที่โหลดใช้คือ $p(t)=v(t)i(t)$
 
 สำหรับโหลดที่ต่อแบบ Y ค่าแรงดันเฟสคือ
 \begin{align}
@@ -33,7 +33,7 @@ toc: true
 v_{CN}i_c\nonumber\\\\
 &=2V_pI_p[\cos\omega t\cos (\omega t -\theta) +\cos (\omega t -120^{\circ})\cos (\omega t -\theta-120^{\circ}) \nonumber \\\\
 &+ \cos (\omega t +120^{\circ})\cos (\omega t -\theta+120^{\circ})]\tag{8.45}\label{eq:p3int}
-\end{align} 
+\end{align}
 
 ใช้คุณสมบัติของตรีโกณ
 \begin{align*}
@@ -45,9 +45,9 @@ v_{CN}i_c\nonumber\\\\
 \begin{align*}
     \cos\omega t\cos (\omega t -\theta) &= \dfrac{1}{2}[\cos(\omega t+\omega t -\theta)+\cos(\omega t-\omega t +\theta)]\notag\\\\
     &= \dfrac{1}{2}[\cos(2\omega t -\theta)+\cos(\theta)]\notag\\\\
-    \cos(\omega t -120^{\circ})\cos (\omega t -\theta -120^{\circ}) 
+    \cos(\omega t -120^{\circ})\cos (\omega t -\theta -120^{\circ})
     &= \dfrac{1}{2}[\cos(2\omega t -\theta-240^{\circ})+\cos(\theta)]\notag\\\\
-    \cos(\omega t +120^{\circ})\cos (\omega t -\theta +120^{\circ}) 
+    \cos(\omega t +120^{\circ})\cos (\omega t -\theta +120^{\circ})
     &= \dfrac{1}{2}[\cos(2\omega t -\theta+240^{\circ})+\cos(\theta)]\notag\\\\
 \end{align*}
 
@@ -69,7 +69,7 @@ $$
 $$
   \begin{align*}
   \cos (2\omega t-\theta -240^{\circ})&= \cos(2\omega t -\theta) \cos (240^{\circ}) + \sin(2\omega t -\theta) \sin (240^{\circ})\\\\
-  \cos (2\omega t-\theta +240^{\circ})&= \cos(2\omega t -\theta) \cos (240^{\circ}) - \sin(2\omega t -\theta) \sin (240^{\circ}) 
+  \cos (2\omega t-\theta +240^{\circ})&= \cos(2\omega t -\theta) \cos (240^{\circ}) - \sin(2\omega t -\theta) \sin (240^{\circ})
   \end{align*}
 $$
 
@@ -87,7 +87,7 @@ $$
 \begin{align}
     Q_p=V_pI_p\sin \theta \tag{8.49}
 \end{align}
-ค่ากำลังปรากฏต่อเฟสคือ
+ค่ากำลังปรากฎต่อเฟสคือ
 \begin{align}
     S_p=V_pI_p \tag{8.50}
 \end{align}
@@ -143,7 +143,7 @@ $$
 \begin{align*}
     \mathbf{S}_L=3|\mathbf{I}_p|^2\mathbf{Z}_p
 \end{align*}
-โดยที่ $\mathbf{Z}_p=10+j8=12.81\angle{38.66^{\circ}}$ และ $\mathbf{I}_p=\mathbf{I}_a=6.81\angle{-21.8^{\circ}}$ 
+โดยที่ $\mathbf{Z}_p=10+j8=12.81\angle{38.66^{\circ}}$ และ $\mathbf{I}_p=\mathbf{I}_a=6.81\angle{-21.8^{\circ}}$
 ดังนั้น
 
 \begin{align*}
@@ -151,9 +151,9 @@ $$
     &=(1392+j1113)\\;\mathrm{VA}
 \end{align*}
 
-กำลังเฉลี่ยที่โหลดใช้คือ $1391.7\\;\mathrm{W}$ และกำลังรีแอคทีฟที่โหลดใช้คือ $1113.3\\;\mathrm{VAR}$ 
+กำลังเฉลี่ยที่โหลดใช้คือ $1391.7\\;\mathrm{W}$ และกำลังรีแอคทีฟที่โหลดใช้คือ $1113.3\\;\mathrm{VAR}$
 
-ผลต่างของกำลังเชิงซ้อนทั้งสองคือค่าที่ถูกใช้โดยอิมพีแดนซ์ของสายส่งซึ่งมีค่าอิมพีแดนซ์เป็น $(5-j2)\\;\Omega$ 
+ผลต่างของกำลังเชิงซ้อนทั้งสองคือค่าที่ถูกใช้โดยอิมพีแดนซ์ของสายส่งซึ่งมีค่าอิมพีแดนซ์เป็น $(5-j2)\\;\Omega$
 
 เพื่อพิสูจน์ว่าใช่ลองคำนวณกำลังเชิงซ้อนที่ใช้โดยสายส่งดังนี้
 
@@ -161,9 +161,9 @@ $$
     \mathbf{S}\_\ell=3|\mathbf{I}\_p|^2\mathbf{Z}\_\ell=3(6.81)^2(5-j2)=695.6-j278.3 \\;\mathrm{VA}
 \end{align*}
 
-ซึ่งเป็นผลต่างของ $\mathbf{S}_s$ และ $\mathbf{S}_L$ 
+ซึ่งเป็นผลต่างของ $\mathbf{S}_s$ และ $\mathbf{S}_L$
 
-ดังนั้น 
+ดังนั้น
 $$\mathbf{S}\_s+\mathbf{S}\_{\ell}+\mathbf{S}
 _L=0\notag
-$$ 
+$$

@@ -23,13 +23,13 @@ toc: true
   <figcaption style='text-align:center'>รูปที่ 2.13 การแบ่งแรงดัน </figcaption>
 </figure>
 
-หาแรงดัน จากกฏของโอห์ม
-$$ 
+หาแรงดัน จากกฎของโอห์ม
+$$
 \begin{equation}
     v_1 = iR_1\\:,\\:\\: v_2 = iR_2 \tag{2.30} \label{eq:vdiv1}
 \end{equation}
 $$
-จากนั้นใช้กฏ KVL
+จากนั้นใช้กฎ KVL
 $$
 \begin{equation}
 -v+v_1+v_2=0  \tag{2.31}   \label{eq:vdiv2}

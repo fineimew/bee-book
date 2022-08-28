@@ -30,7 +30,7 @@ toc: false
 </style>
 
 
-#### หนังสือสำหรับวิชา 
+#### หนังสือสำหรับวิชา
 #### วิศวกรรมไฟฟ้าพื้นฐาน
 
 - [Quiz 1]({{< relref "1.1.md" >}})
@@ -40,4 +40,4 @@ toc: false
 
 <ul class="nb">
 <li class="nobullet"><a href="/docs/quiz/1.1/">บทที่ ๑ ปริมาณไฟฟ้า</a></li>
-<li class="nobullet"><a href="/docs/quiz/1.2/">บทที่ ๒ กฏพื้นฐานไฟฟ้า</a></li>
+<li class="nobullet"><a href="/docs/quiz/1.2/">บทที่ ๒ กฎพื้นฐานไฟฟ้า</a></li>
