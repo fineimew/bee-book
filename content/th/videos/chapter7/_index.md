@@ -1,10 +1,10 @@
 ---
-title :  "บทที่ ๘ ระบบไฟ 3 เฟส"
-description: "Chapter 8"
+title :  "บทที่ ๗ การวิเคราะห์กำลังในวงจรไฟสลับ"
+description: "Chapter 7"
 lead: ""
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
 draft: false
 images: []
-weight: 2800
+weight: 2700
 ---
