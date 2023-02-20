@@ -43,5 +43,6 @@ toc: false
 <li class="nobullet"><a href="/videos/chapter6/">บทที่ ๖ การวิเคราะห์วงจรกระแสสลับ</a></li>
 <li class="nobullet"><a href="/videos/chapter7/">บทที่ ๗ การวิเคราะห์กำลังวงจรสลับ</a></li>
 <li class="nobullet"><a href="/videos/chapter8/">บทที่ ๘  ระบบไฟ 3 เฟส</a></li>
+<li class="nobullet"><a href="/videos/chapter9/">บทที่ ๙  วงจรแม่เหล็กและ หม้อแปลง</a></li>
 </ul>
 
