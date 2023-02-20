@@ -1,14 +1,14 @@
 ---
-title : "8.6 กำลังในระบบสมดุล"
-description: "Chapter 8"
+title : "9.6 การสูญเสียในแกนเหล็ก"
+description: "Chapter 9"
 lead: ""
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
 draft: false
 images: []
-weight: 2860
+weight: 2960
 ---
 
-## กำลังในระบบสมดุล
+## การสูญเสียในแกนเหล็ก
 
 {{<vimeo 800432475 >}}
